@@ -1,7 +1,15 @@
 .cmp-teaser {
   position: relative;
+  border-collapse: collapse;
+  border-radius: 12px;
+  perspective: 1px;
+  overflow: hidden;
+  background-color: #EAA33A;
+  margin-bottom: 60px;
 }
 .cmp-teaser__image {
+  
+
   & .cmp-image {
     margin: 0;
   }
@@ -9,21 +17,22 @@
     display: block;
     height: 30em;
     object-fit: cover;
+    mix-blend-mode: normal;
   }
 }
 .cmp-teaser__content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 5%;
+  max-width: 400px;
 }
 .cmp-teaser__pretitle {
   color: #ffffff;
   font-weight: 300;
-  font-size: 0.625em;
+  font-size: 12px;
   line-height: 1.125em;
   letter-spacing: 0.025em;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 .cmp-teaser__title {
@@ -33,7 +42,7 @@
   font-size: 2.25em;
   font-family: titleFont, serif;
   line-height: 3.0625rem;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 .cmp-teaser__title-link {
@@ -50,14 +59,16 @@
 }
 .cmp-teaser__action-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin: 1rem 0;
 }
 .cmp-teaser__action-link {
   margin-right: 0.8em;
   padding: 0.5625em 1em 0.6875em 1em;
   color: $color-text-inverted;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: $font-family;
   text-decoration: none;
   border-radius: 1.56em;
 }
