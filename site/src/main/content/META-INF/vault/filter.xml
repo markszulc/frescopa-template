@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/frescopa-template" mode="merge"/>
+    <filter root="/content/frescopa-template" mode="merge"/>
+    <filter root="/content/dam/frescopa-template" mode="merge"/>
+    <filter root="/content/experience-fragments/frescopa-template" mode="merge"/>
+</workspaceFilter>

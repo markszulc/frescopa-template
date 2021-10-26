@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.2
+Build-Jdk-Spec: 11
+Implementation-Title: Standard AEM Site Template
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.guides:frescopa-template.site:0.0.1-SN
+ APSHOT
+Content-Package-Description: Site template content package of Standard A
+ EM Site Template
+Content-Package-Roots: /conf/frescopa-template,/content/dam/frescopa-tem
+ plate,/content/experience-fragments/frescopa-template,/content/frescopa
+ -template
+

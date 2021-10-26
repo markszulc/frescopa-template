@@ -1,0 +1,23 @@
+{
+  "name": "frescopa-template",
+  "version": "0.0.2",
+  "description": "Coffee based experience template",
+  "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "deploy": "curl -u admin:admin -F file=@frescopa-template-latest.zip http://localhost:4502/conf/global/site-templates.import.html"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "^2.2.1"
+  },
+  "siteTemplate": {
+    "title": "Frescopa Experience Template",
+    "createdBy": "Mark Szulc",
+    "useCases": [
+      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
+    ],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/adobe/frescopa-template"
+  }
+}
