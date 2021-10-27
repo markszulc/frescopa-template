@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-10-27T21:09:36.979+11:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/frescopa-template/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -10,79 +12,198 @@
         jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
-            id="main-footer"
+            jcr:lastModified="{Date}2021-10-27T16:33:05.583+11:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
-            layout="responsiveGrid">
-            <separator
+            id="main-footer"
+            layout="simple">
+            <container
+                cq:styleIds="[1635303830163]"
+                jcr:created="{Date}2021-10-27T16:31:50.762+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-27T16:50:02.929+11:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/separator/v1/separator"/>
-            <image
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/image/v2/image"
-                fileReference="/content/dam/frescopa-template/Group 3458@2x.png">
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="simple">
+                <container
+                    jcr:created="{Date}2021-10-27T16:34:20.074+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T17:35:03.658+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="footer-address-block"
+                    layout="simple">
+                    <image
+                        jcr:lastModified="{Date}2021-10-27T16:31:02.029+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/image/v2/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/frescopa-template/logos/Logo.png"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="1"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </image>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2021-10-27T16:34:54.943+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T20:48:50.719+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Fréscopa Coffee &amp;amp; Tea&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&lt;i>Smiles one cup at a time.&lt;/i>&lt;/p>&#xd;&#xa;&lt;p>3900 Adobe Way, Lehi, UT 84043&lt;br>&#xd;&#xa;info@frescopa.com&lt;br>&#xd;&#xa;(385) 345-0000&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="1"
-                        width="1"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
+                        width="3"/>
                 </cq:responsive>
-            </image>
-            <title
-                cq:styleIds="[1612988098073]"
+                <container_126376156
+                    jcr:created="{Date}2021-10-27T16:37:13.117+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T20:30:14.809+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    id="footer-link-block"
+                    layout="simple">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="2"/>
+                    </cq:responsive>
+                    <text_copy
+                        jcr:created="{Date}2021-10-27T16:38:26.274+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T16:39:33.881+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Machines&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Espresso Machines&lt;/p>&#xd;&#xa;&lt;p>Fréscopa Major&lt;/p>&#xd;&#xa;&lt;p>Fréscopa Minor&lt;/p>&#xd;&#xa;&lt;p>Autodrip Coffee Makers&lt;/p>&#xd;&#xa;&lt;p>Coffee Grinders&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="1"/>
+                        </cq:responsive>
+                    </text_copy>
+                    <text_copy_1056630587
+                        jcr:created="{Date}2021-10-27T16:38:26.274+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T20:34:07.410+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Coffee&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Bagged Coffee&lt;/p>&#xd;&#xa;&lt;p>Coffee Pods&lt;/p>&#xd;&#xa;&lt;p>Find a Retailer&lt;/p>&#xd;&#xa;&lt;p>Fréscopa Affiliate&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="1"/>
+                        </cq:responsive>
+                    </text_copy_1056630587>
+                    <text_copy_2093172955
+                        jcr:created="{Date}2021-10-27T16:38:26.274+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T20:34:52.722+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Tea&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Loose Leaf&lt;/p>&#xd;&#xa;&lt;p>Pods&lt;/p>&#xd;&#xa;&lt;p>Bundles&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="1"/>
+                        </cq:responsive>
+                    </text_copy_2093172955>
+                    <text_copy_666643838
+                        jcr:created="{Date}2021-10-27T16:38:26.274+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T20:35:31.808+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>Accessories&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Replacement Parts&lt;/p>&#xd;&#xa;&lt;p>Cups &amp;amp; Mugs&lt;/p>&#xd;&#xa;&lt;p>Travel Mugs&lt;/p>&#xd;&#xa;&lt;p>Kettles &amp;amp; Carafs&lt;/p>&#xd;&#xa;&lt;p>Carafs&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="1"/>
+                        </cq:responsive>
+                    </text_copy_666643838>
+                    <text
+                        jcr:created="{Date}2021-10-27T16:38:26.274+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T20:36:25.674+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>&lt;b>About Fréscopa&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>About US&lt;/p>&#xd;&#xa;&lt;p>Support&lt;/p>&#xd;&#xa;&lt;p>Find a Retailer&lt;/p>&#xd;&#xa;&lt;p>Fréscopa Affiliate&lt;/p>&#xd;&#xa;&lt;p>Sustainability&lt;/p>&#xd;&#xa;&lt;p>Careers&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="1"/>
+                        </cq:responsive>
+                    </text>
+                </container_126376156>
+            </container>
+            <container_1955478950
+                cq:styleIds="[1635303830163]"
+                jcr:created="{Date}2021-10-27T16:40:47.418+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-27T21:09:36.878+11:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="© Company Name Address Ave, City Name, State ZIP"
-                sling:resourceType="core/wcm/components/title/v2/title"
-                type="h6">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="7"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
-                </cq:responsive>
-            </title>
-            <text_835927192
-                cq:styleIds="[1612907922119]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/text/v2/text"
-                text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Terms of Use&lt;/a>&lt;/p>&#xd;&#xa;"
-                textIsRich="true">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="1"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="5"/>
-                </cq:responsive>
-            </text_835927192>
-            <text_626570102
-                cq:styleIds="[1612907922119]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/text/v2/text"
-                text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Privacy Policy&lt;/a>&lt;/p>&#xd;&#xa;"
-                textIsRich="true">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="1"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="5"/>
-                </cq:responsive>
-            </text_626570102>
+                sling:resourceType="core/wcm/components/container/v1/container"
+                id="footer-strip">
+                <text_copy
+                    jcr:created="{Date}2021-10-27T16:41:45.708+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T16:42:11.981+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>© Fréscopa, Inc. All rights reserved.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <text
+                    jcr:created="{Date}2021-10-27T16:41:45.708+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T16:42:21.849+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    text="&lt;p>Terms of Use&amp;nbsp; |&amp;nbsp; Privacy Policy&amp;nbsp; |&amp;nbsp; Cookie Notice&amp;nbsp; | Diversity &amp;amp; Inclusion&amp;nbsp; |&amp;nbsp; Social Responsibility&amp;nbsp; |&amp;nbsp; Site Map&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container_1955478950>
         </root>
     </jcr:content>
 </jcr:root>

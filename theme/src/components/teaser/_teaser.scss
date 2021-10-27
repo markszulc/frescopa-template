@@ -24,7 +24,7 @@
   position: absolute;
   top: 30%;
   left: 5%;
-  max-width: 400px;
+  max-width: 560px;
 }
 .cmp-teaser__pretitle {
   color: #ffffff;
@@ -37,11 +37,11 @@
 }
 .cmp-teaser__title {
   margin-top: 0.5625rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #ffffff;
-  font-size: 2.25em;
-  font-family: titleFont, serif;
-  line-height: 3.0625rem;
+  font-size: 56px;
+  font-family: $font-family-title, serif;
+  line-height: 56px;
   text-align: left;
   text-decoration: none;
 }

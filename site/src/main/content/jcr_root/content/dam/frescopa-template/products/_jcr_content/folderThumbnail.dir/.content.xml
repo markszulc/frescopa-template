@@ -2,7 +2,7 @@
 <jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        dam:folderThumbnailPaths="[/content/dam/frescopa-template/products/Coffee-machine-angle.png]"
+        dam:folderThumbnailPaths="[/content/dam/frescopa-template/products/AdobeStock_96017143.jpeg,/content/dam/frescopa-template/products/AdobeStock_96017153.jpeg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

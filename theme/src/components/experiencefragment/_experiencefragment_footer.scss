@@ -2,9 +2,9 @@
 
 #main-footer {
   margin-top: 5em;
-  padding: 1.625em 0 1.5625em 0;
+  padding: 50px 0 1.5625em 0;
   background-color: #F0E0D2;
-  border-top: 0.125em solid $color-shade-1;
+  font-family: $font-family;
 
   .separator {
     display: none;
@@ -25,8 +25,7 @@
 
   .cmp-image__image {
     display: block;
-    width: 9.2em;
-    margin: 0 auto;
+    width: 180px;
   }
 
   .cmp-title {
@@ -37,23 +36,98 @@
     }
   }
 
-  .cmp-text {
+
+}
+
+#footer-address-block {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  text-align: left;
+
+  .image {
     margin: 0;
-    text-align: center;
-    & p {
-      margin-block: 0;
-      & a {
-        color: $color-accent;
-        text-decoration: none;
-        &:focus {
-          color: $color-accent-lighter;
-          border: 0.125em solid $color-accent-lighter;
-          border-radius: 0.25em;
-        }
-        &:hover {
-          color: $color-accent-darker;
-        }
-      }
+    float: left;
+    margin-bottom: 10px;
+  }
+  .text {
+    margin: 0;
+    font-size: 13px;
+
+    p:nth-child(1) {
+      color: #58181D;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    p:nth-child(2) {
+      color: #58181D;
+      line-height: 18px;
+
+    }
+    p:nth-child(3) {
+      color: #8B593D;
+      line-height: 20px;
+
+    }
+
+  }
+}
+
+
+#footer-link-block {
+  text-align: left;
+  padding-top: 10px;
+  justify-content: space-between;
+  width: 1085px;
+
+  .text {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+    width: 150px;
+
+    p {
+      color: #8B593D;
+      line-height: 25px;
+    }
+
+    p:nth-child(1) {
+      color: #58181D;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
     }
   }
+
+
+}
+
+#footer-strip {
+
+  margin: 0;
+ 
+  > div {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
+  .text {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+
+    p {
+      font-size: 13px;
+      color: #8B593D;
+    }
+  }
+
+  .text:nth-child(2) {
+    text-align: right;
+}
+
 }

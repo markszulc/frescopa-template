@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-27T21:41:27.726+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/frescopa-template/settings/wcm/templates/home-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Frescopa Home"
+        jcr:uuid="e1f5eaba-e85e-450b-9a24-99167f4221ae"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/title/v2/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-10-27T14:44:41.465+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="This is a Teaser"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/Image@2x.png"
+                        pretitle="Teasers"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="https://www.adobe.com"
+                                text="Button default"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                link="https://www.adobe.com"
+                                text="Button default"/>
+                        </actions>
+                    </teaser>
+                </container>
+                <container_1578756628
+                    cq:styleIds="[1612998379971]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <teaser_930205715
+                        jcr:created="{Date}2021-10-27T16:10:16.100+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-10-27T21:41:27.721+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Your perfect coffee is four questions away. "
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/campaigns/holdingcup.png"
+                        pretitle="MyBarista Coffee Quiz"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/frescopa-template/us/en"
+                                text="Take Our Coffee Quiz"/>
+                        </actions>
+                    </teaser_930205715>
+                    <teaser_826752756
+                        cq:styleIds="[1612897454978]"
+                        jcr:created="{Date}2021-10-26T22:04:43.546+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>With a MyBarista subscription, you get hand-selected coffees delivered right to your door each month.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-10-27T16:00:21.114+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Fall in love with coffee. Every single month."
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/stock/AdobeStock_321471788.jpeg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/frescopa-template/us/en"
+                                text="Learn More"/>
+                        </actions>
+                    </teaser_826752756>
+                    <teaser_707130440
+                        cq:styleIds="[1612897500904,1612830658386]"
+                        jcr:description="&lt;p>Sourced from a unique mix of micro lots from Hulia, Columbia, this light roast boasts crisp cherry &amp;amp; floral notes while providing deep, sweet flavors of caramel and chocolate. Morning Muse is the perfect roast for whatever your day brings.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-10-27T16:01:04.251+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Introducing Morning Muse Light Roast."
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/stock/AdobeStock_301817842.jpeg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="https://www.adobe.com"
+                                text="Shop Now"/>
+                        </actions>
+                    </teaser_707130440>
+                    <teaser
+                        cq:styleIds="[1612830658386,1612897500904]"
+                        jcr:description="&lt;p>Start a MyBarista subscription to get a carefully selected variety of coffees sent to you each month. As you rate the coffees you try, we’ll fine-tune your flavor profile to give you flavors we think you’ll love.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-10-27T16:01:40.517+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Your coffee. On your doorstep."
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/stock/AdobeStock_321471788.jpeg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="https://www.adobe.com"
+                                text="Start Now"/>
+                        </actions>
+                    </teaser>
+                </container_1578756628>
+            </container>
+        </root>
+    </jcr:content>
+    <coffee/>
+    <tea/>
+    <machines/>
+    <accessories/>
+    <store-locator/>
+    <sustainability/>
+</jcr:root>
