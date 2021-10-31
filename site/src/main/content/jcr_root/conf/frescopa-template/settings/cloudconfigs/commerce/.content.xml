@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-10-31T17:22:02.225+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cif/shell/components/configuration/page/template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Commerce"
         sling:configPropertyInherit="true"
-        cq:template="/libs/cif/shell/components/configuration/page/template"
-        sling:resourceType="cif/shell/components/configuration/page"/>
+        sling:resourceType="cif/shell/components/configuration/page"
+        enableUIDSupport="true"
+        magentoRootCategoryId="NjI="
+        magentoStore="frescopa"/>
+    <rep:policy/>
 </jcr:root>
