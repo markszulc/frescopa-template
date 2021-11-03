@@ -1,0 +1,66 @@
+.productcarousel {
+  padding: 60px;
+  background-image: url("resources/images/background01.png");
+  background-size: cover;
+  border-radius: 10px;
+
+  .productcarousel__title {
+
+    text-align: left;
+    font: normal normal normal 48px/56px $font-family-title;
+    letter-spacing: 0px;
+    color: #58181D;
+    opacity: 1;
+    margin-bottom: 30px;
+  }
+
+  .productcarousel__cardscontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .product__card__image {
+    max-height: 232px;
+    object-fit: contain;
+
+    img {
+      max-height: 232px;
+    }
+  }
+
+  .product__card {
+    width: 380px;
+    height: 410px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0000001A;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 24px/28px Baskerville;
+    letter-spacing: 0px;
+    color: #58181D;
+    opacity: 1;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: #58181D;
+
+      .price {
+        text-align: left;
+        font-family: $font-family;
+        font-size: 21px;
+        font: normal normal medium 21px/56px Roboto;
+        letter-spacing: 0px;
+        color: #58181D;
+        opacity: 1;
+      }
+
+    }
+
+
+  }
+}
