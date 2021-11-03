@@ -204,12 +204,12 @@
                             <policy_main
                                 cq:styleDefaultClasses="Homepage Content Container"
                                 jcr:description="Sets a &lt;main> element on the page content area."
-                                jcr:lastModified="{Date}2021-10-27T14:40:48.550+11:00"
+                                jcr:lastModified="{Date}2021-11-03T19:58:40.176+11:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Main"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[group:Core Content,group:Core Form,group:Core Structure]"
+                                components="[/apps/core/cif/components/commerce/categorycarousel/v1/categorycarousel,/apps/core/cif/components/content/teaser/v2/teaser,/apps/core/cif/components/commerce/featuredcategorylist/v1/featuredcategorylist,/apps/core/cif/components/commerce/productcarousel/v1/productcarousel,/apps/core/cif/components/commerce/productteaser/v1/productteaser,/apps/core/cif/components/commerce/relatedproducts/v1/relatedproducts,group:Core Content,group:Core Form,group:Core Structure]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
