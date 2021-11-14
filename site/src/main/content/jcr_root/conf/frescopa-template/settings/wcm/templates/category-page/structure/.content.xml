@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-11-14T10:55:16.367+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/frescopa-template/settings/wcm/templates/product-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="core/cif/components/structure/page/v2/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="simple">
+            <experiencefragment
+                jcr:created="{Date}2021-11-14T10:53:26.404+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-14T10:53:38.659+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/frescopa-template/en/site/header/master"/>
+            <container
+                cq:styleIds="[1635303830163]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <experiencefragment_823150793
+                jcr:created="{Date}2021-11-14T10:54:48.358+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-14T10:54:59.357+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/frescopa-template/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
