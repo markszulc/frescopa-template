@@ -2,7 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-10-27T21:41:27.726+11:00"
+        cq:cifCategoryPage="/content/frescopa-template/us/en/category-page"
+        cq:cifProductPage="/content/frescopa-template/us/en/product-page"
+        cq:lastModified="{Date}2021-11-14T11:38:36.177+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/frescopa-template/settings/wcm/templates/home-page"
         jcr:isCheckedOut="{Boolean}true"
@@ -17,38 +19,6 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/title/v2/title"/>
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/container/v1/container"
-                    layout="responsiveGrid">
-                    <teaser
-                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2021-10-27T14:44:41.465+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="This is a Teaser"
-                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/frescopa-template/Image@2x.png"
-                        pretitle="Teasers"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                        </actions>
-                    </teaser>
-                </container>
                 <container_1578756628
                     cq:styleIds="[1612998379971]"
                     jcr:primaryType="nt:unstructured"
@@ -103,6 +73,52 @@
                                 text="Learn More"/>
                         </actions>
                     </teaser_826752756>
+                    <productcarousel
+                        jcr:created="{Date}2021-11-03T20:02:18.428+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-14T11:38:36.168+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Fréscopa top sellers."
+                        sling:resourceType="core/cif/components/commerce/productcarousel/v1/productcarousel"
+                        product="[ITT743,CSM5122,HBMR211]"
+                        productType="[combinedSku,combinedSku,combinedSku]"/>
+                    <featuredcategorylist
+                        jcr:created="{Date}2021-11-03T20:04:28.333+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-14T11:38:14.512+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Shop all Fréscopa products."
+                        sling:resourceType="core/cif/components/commerce/featuredcategorylist/v1/featuredcategorylist">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                asset="/content/dam/frescopa-template/line-art/machine.png"
+                                categoryId="NzA="
+                                categoryIdType="uid"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                asset="/content/dam/frescopa-template/line-art/baggedcoffee.png"
+                                categoryId="Njc="
+                                categoryIdType="uid"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                asset="/content/dam/frescopa-template/line-art/coffeepods.png"
+                                categoryId="Njg="
+                                categoryIdType="uid"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                asset="/content/dam/frescopa-template/line-art/bundles.png"
+                                categoryId="Njk="
+                                categoryIdType="uid"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                asset="/content/dam/frescopa-template/line-art/accessories.png"
+                                categoryId="NjY="
+                                categoryIdType="uid"/>
+                        </items>
+                    </featuredcategorylist>
                     <teaser_707130440
                         cq:styleIds="[1612897500904,1612830658386]"
                         jcr:description="&lt;p>Sourced from a unique mix of micro lots from Hulia, Columbia, this light roast boasts crisp cherry &amp;amp; floral notes while providing deep, sweet flavors of caramel and chocolate. Morning Muse is the perfect roast for whatever your day brings.&lt;/p>&#xd;&#xa;"
@@ -158,6 +174,9 @@
                 </container_1578756628>
             </container>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file.sftmp/>
+        </image>
     </jcr:content>
     <coffee/>
     <tea/>
@@ -165,4 +184,6 @@
     <accessories/>
     <store-locator/>
     <sustainability/>
+    <product-page/>
+    <category-page/>
 </jcr:root>
