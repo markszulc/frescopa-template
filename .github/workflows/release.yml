@@ -9,6 +9,8 @@ on:
         description: 'Semantic version (major | minor | patch)'
         required: true
         default: 'patch'
+  push:
+    branches: [ main ]
 
 jobs:
   build_and_release:
@@ -83,4 +85,4 @@ jobs:
             -H "Authorization: token ${{ secrets.SITE_THEME_REPO_WRITE_TOKEN }}" \
             --request POST \
             --data '{"event_type": "fetch_latest_changes", "client_payload": { "site_template_version": "${{ steps.packageJson.outputs.VERSION }}" } }' \
-            ${{ github.api_url }}/repos/adobe/aem-site-template-standard-theme-e2e/dispatches
+            ${{ github.api_url }}/repos/markszulc/frescopa-template/dispatches
