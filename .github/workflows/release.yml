@@ -9,6 +9,8 @@ on:
         description: 'Semantic version (major | minor | patch)'
         required: true
         default: 'patch'
+  push:
+    branches: [ main ]
 
 jobs:
   build_and_release:
