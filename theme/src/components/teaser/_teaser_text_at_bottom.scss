@@ -1,8 +1,10 @@
+
+
 .textAtBottom {
   .cmp-teaser {
     position: initial;
     background-color: #fff;
-    margin: 0em 0.5em 0em 0.5em;
+    margin: 0em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 20px #0000001A;
     border-radius: 10px;
@@ -31,7 +33,7 @@
     position: initial;
     top: 0;
     left: 0;
-    padding: 0px 0px 0 40px;
+    padding: 0px 40px 0 40px;
     transform: none;
     max-width: 100%;
   }
@@ -66,20 +68,22 @@
     color: $color-text;
     font-weight: 300;
     font-size: 1em;
+    font-family: $font-family;
     line-height: 1.75em;
     text-align: start;
   }
   .cmp-teaser__action-container {
     display: flex;
     justify-content: start;
-    margin: 1rem 0;
-    padding: 34px 0.125rem 56px 0px;
+    margin: 0;
+    padding: 20px 0.125rem 40px 0px;
   }
   .cmp-teaser__action-link {
+    font-size: 16px;
     margin-right: 0.8em;
     padding: 0.5625em 1em 0.6875em 1em;
     color: $color-text-inverted;
-    font-weight: 300;
+    font-weight: 600;
     text-decoration: none;
     border-radius: 1.56em;
   }
@@ -124,5 +128,17 @@
       color: $color-shade-1;
       border-color: $color-shade-1;
     }
+  }
+}
+
+.textAtBottom:nth-child(odd) {
+    .cmp-teaser{
+      margin-right: 20px;
+    }
+}
+
+.textAtBottom:nth-child(even) {
+  .cmp-teaser{
+    margin-left: 20px;
   }
 }
