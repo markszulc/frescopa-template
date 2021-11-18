@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c3282ca3-198f-42c8-b99f-8e447777fece">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-10-31T15:55:56.944+11:00"
+        jcr:lastModified="{Date}2021-11-17T12:48:28.625+09:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -130,7 +130,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20170718"
             dam:DigitalCreationTime="091854+0000"
-            dam:extracted="{Date}2021-10-31T15:55:54.451+11:00"
+            dam:extracted="{Date}2021-11-17T12:48:24.011+09:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -199,6 +199,9 @@
             psAux:Lens="Schneider Kreuznach LS 80mm f/2.8"
             psAux:LensInfo="80/1 80/1 1029951/46816 157525/56259"
             psAux:SerialNumber="IT001317"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}4547"
             tiff:ImageWidth="{Long}6200"
             tiff:Make="Phase One"
@@ -206,6 +209,8 @@
             tiff:ResolutionUnit="{Long}2"
             tiff:XResolution="300/1"
             tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreateDate="{Date}2017-07-18T09:18:54.000Z"
             xmp:CreatorTool="Adobe Photoshop Lightroom Classic 8.3.1 (Macintosh)"
@@ -222,6 +227,12 @@
                 stRef:documentID="adobe:docid:photoshop:87a5f222-4af5-4044-985b-5656a15d573e"
                 stRef:instanceID="xmp.iid:6774f672-7547-4a31-9163-9e50e6ee39ae"
                 stRef:originalDocumentID="xmp.did:1e86282d-8b7b-4083-b04b-d361b01f77c4"
+                xmpNodeType="xmpStruct"/>
+            <crd:Look
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <crs:Look
+                jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>

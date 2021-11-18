@@ -5,4 +5,5 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="My Site Fragments"
     sling:configRef="/conf/frescopa-template">
+    <en/>
 </jcr:root>

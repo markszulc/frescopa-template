@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0c4906b0-37ff-4220-beb2-d8e18ac4ba8a">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-11-18T16:14:30.745+09:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-11-18T16:14:24.302+09:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}48.61111068725586"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}69.44444274902344"
+            dam:Progressive="yes"
+            dam:sha1="b82bca4de760e101218fe8f4d434c041bcf274e9"
+            dam:size="{Long}4718226"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:ICCProfile="c2"
+            tiff:ImageLength="{Long}3500"
+            tiff:ImageWidth="{Long}5000"
+            xmp:CreateDate="{Date}2021-11-18T15:48:20.000+09:00"
+            xmp:MetadataDate="{Date}2021-11-18T16:13:45.000+09:00"
+            xmp:ModifyDate="{Date}2021-11-18T16:13:45.000+09:00"
+            xmpMM:DocumentID="94F47FDECF3D04D53A24531214D9D7F2"
+            xmpMM:InstanceID="xmp.iid:409e85c8-3321-4370-a86c-0320b54b0bbe"
+            xmpMM:OriginalDocumentID="94F47FDECF3D04D53A24531214D9D7F2"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2021-11-18T16:26:37.798+09:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

@@ -5,13 +5,13 @@
     jcr:uuid="64f78ab6-64f8-440f-96a9-aaa720c3977b">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-10-31T15:55:56.052+11:00"
+        jcr:lastModified="{Date}2021-11-17T12:48:27.789+09:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             acdsee:caption="Delivered parcel on door mat near entrance"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-10-31T15:55:53.794+11:00"
+            dam:extracted="{Date}2021-11-17T12:48:21.207+09:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -65,6 +65,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Delivered parcel on door mat near entrance"
+            ns2:InteroperabilityIndex="R98"
             ns2:LensSpecification="[24/1,70/1,0/0,0/0]"
             ns2:LensSpecification_xmpArrayType="rdf:Seq"
             ns2:PhotographicSensitivity="{Long}100"
@@ -83,14 +84,21 @@
             psAux:Lens="EF24-70mm f/2.8L II USM"
             psAux:LensID="{Long}495"
             psAux:LensInfo="24/1 70/1 0/0 0/0"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}3840"
             tiff:ImageWidth="{Long}5760"
             tiff:Make="Canon"
             tiff:Model="Canon EOS 5D Mark III"
             tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
             tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
-            tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrPositioning="{Long}2"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreateDate="{Date}2020-01-30T15:06:42.670+11:00"
             xmp:CreatorTool="Adobe Photoshop CC (Windows)"
@@ -101,7 +109,16 @@
             xmpMM:InstanceID="xmp.iid:842a27cb-092c-5149-b8cd-84c87e6d4a25"
             xmpMM:OriginalDocumentID="D3B8BA4744A10C0AB070E009C8263E40"
             xmpRights:Owner="[Olga Yastremska\, New Africa\, Africa Studio]"
-            xmpRights:Owner_xmpArrayType="rdf:Bag"/>
+            xmpRights:Owner_xmpArrayType="rdf:Bag">
+            <exif:Flash
+                exif:Fired="{Boolean}false"
+                exif:Function="{Boolean}false"
+                exif:Mode="{Long}2"
+                exif:RedEyeMode="{Boolean}false"
+                exif:Return="{Long}0"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
             dam:score="{Long}2"

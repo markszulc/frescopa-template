@@ -5,7 +5,7 @@
     jcr:uuid="c4eeb807-7023-4854-bfd5-c4a96d90db57">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-10-31T15:55:56.446+11:00"
+        jcr:lastModified="{Date}2021-11-17T12:48:27.904+09:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -133,7 +133,7 @@
             crs:VignetteAmount="{Long}0"
             crs:Whites2012="{Long}34"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-10-31T15:55:54.269+11:00"
+            dam:extracted="{Date}2021-11-17T12:48:21.224+09:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -213,14 +213,22 @@
             psAux:LensInfo="18/1 55/1 14/5 4/1"
             psAux:SerialNumber="8DQ04309"
             psAux:VignetteCorrectionAlreadyApplied="True"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}1"
             tiff:ImageLength="{Long}4160"
             tiff:ImageWidth="{Long}6240"
             tiff:Make="FUJIFILM"
             tiff:Model="X-T3"
             tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:PlanarConfiguration="{Long}1"
             tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
             tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreateDate="{Date}2019-10-16T17:14:58.000+11:00"
             xmp:CreatorTool="Adobe Photoshop CC 2019 (Macintosh)"
@@ -235,6 +243,14 @@
                 stRef:documentID="xmp.did:8073dc92-d8f6-48fb-a8cd-60d310e02b4e"
                 stRef:instanceID="xmp.iid:7f91bb8e-e775-46cb-bc9e-f664a3c83991"
                 stRef:originalDocumentID="0EFC4F68C1353710FD5D361C0408B95C"
+                xmpNodeType="xmpStruct"/>
+            <exif:Flash
+                exif:Fired="{Boolean}false"
+                exif:Function="{Boolean}false"
+                exif:Mode="{Long}0"
+                exif:RedEyeMode="{Boolean}false"
+                exif:Return="{Long}0"
+                jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
