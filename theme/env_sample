@@ -1,0 +1,6 @@
+#Rename this file to .env
+MAP_DATA_URL_AUTHOR=https://author-p47527-e236969.adobeaemcloud.com
+MAP_DATA_URL_PUBLISH=https://publish-p47527-e236969.adobeaemcloud.com
+MAP_DATA_USER=demo
+MAP_DATA_PASSWORD=demo
+GOOGLE_MAP_KEY=google-map-key

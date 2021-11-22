@@ -89,6 +89,13 @@ module.exports = {
         },
         plugins: [
             new CleanWebpackPlugin(),
+            new webpack.DefinePlugin({
+                'process.env.MAP_DATA_URL_AUTHOR': JSON.stringify(process.env.MAP_DATA_URL_AUTHOR),
+                'process.env.MAP_DATA_URL_PUBLISH': JSON.stringify(process.env.MAP_DATA_URL_PUBLISH),
+                'process.env.MAP_DATA_USER': JSON.stringify(process.env.MAP_DATA_USER),
+                'process.env.MAP_DATA_PASSWORD': JSON.stringify(process.env.MAP_DATA_PASSWORD),
+                'process.env.GOOGLE_MAP_KEY': JSON.stringify(process.env.GOOGLE_MAP_KEY),
+            }),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
                 filename: 'css/theme.css',
