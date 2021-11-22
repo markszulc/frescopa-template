@@ -58,6 +58,15 @@ module.exports = {
                     ]
                 },
                 {
+                    test: /\.js$/,
+                    include: /src/,
+                    use: [
+                        {
+                            loader: 'babel-loader'
+                        }
+                    ]
+                },
+                {
                     test: /\.scss$/,
                     use: [
                         MiniCssExtractPlugin.loader,
