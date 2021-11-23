@@ -1,0 +1,72 @@
+//== Container Special Contents
+.cmp-container--special-contents{
+    padding-bottom: 8rem;
+    
+    .cmp-text {
+        padding-bottom: 2rem;
+
+        h2{
+            padding-bottom: 20px;
+        }
+        
+        h2::after{
+            background-color: #d7373f;
+            content: " ";
+            height: 2px;
+            left: 50%;
+            margin-top: 10px;
+            margin-left: -50px;
+            position: absolute;
+            width: 75pt;
+        }
+    }
+
+    .textAtLeft,
+    .textAtRight{
+        .cmp-teaser{
+            background-image: none;
+            background-color: initial;
+        }
+    }
+
+    .textAtLeft{
+        .cmp-teaser__description{
+            text-align: right;
+            padding: 0 20px;
+        }
+
+        .cmp-teaser__image{
+            text-align: left;;
+        }
+    }
+
+    .textAtRight{
+        .cmp-teaser__description{
+            text-align: left;
+            padding: 0 20px;
+        }
+
+        .cmp-teaser__image{
+            text-align: right;
+        }
+    }
+
+    .cmp-teaser{
+        width: 75% !important;
+        margin: auto !important;
+
+        .cmp-teaser__image,
+        .cmp-teaser__content{
+            width: 50%;
+            max-width: 50%;
+            margin: 0;
+        }
+
+        .cmp-teaser__image{
+            img{
+                height: 200px !important;
+                object-fit: cover;
+            }
+        }
+    }
+}
