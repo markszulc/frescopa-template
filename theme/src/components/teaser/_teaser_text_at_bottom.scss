@@ -131,14 +131,14 @@
   }
 }
 
-.textAtBottom:nth-child(odd) {
+.textAtBottom:nth-of-type(odd) {
     .cmp-teaser{
-      margin-right: 20px;
+      margin-left: 20px;
     }
 }
 
-.textAtBottom:nth-child(even) {
+.textAtBottom:nth-of-type(even) {
   .cmp-teaser{
-    margin-left: 20px;
+    margin-right: 20px;
   }
 }
