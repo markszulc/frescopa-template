@@ -8,4 +8,4 @@ it.
 */
 
 // Replace following line with your own code
-console.log('Standard site theme loaded…')
+console.log('Frescopa site theme loaded…')
