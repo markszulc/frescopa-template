@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 // import fetch from 'node-fetch';
 import AEMHeadless from '@adobe/aem-headless-client-js';
+import './locationMap.scss';
 
-const {
-  MAP_DATA_URL_AUTHOR, MAP_DATA_URL_PUBLISH, MAP_DATA_USER, MAP_DATA_PASSWORD, GOOGLE_MAP_KEY
-} = process.env;
+const MAP_DATA_URL_PUBLISH='https://publish-p47527-e236969.adobeaemcloud.com';
+const GOOGLE_MAP_KEY='AIzaSyB4er8NcF-CGHY4ELZbqMlqzAkgsyt798g';
 
 let aemHeadlessClient = new AEMHeadless({
   serviceURL: MAP_DATA_URL_PUBLISH,
@@ -15,16 +15,6 @@ let aemHeadlessClient = new AEMHeadless({
 var url = (window.location != window.parent.location)
             ? document.referrer
             : document.location.href;
-
-if (url.includes('author')) {
-  aemHeadlessClient = new AEMHeadless({
-    serviceURL: MAP_DATA_URL_AUTHOR,
-    endpoint: '/content/_cq_graphql/global/endpoint.json',
-    auth: [MAP_DATA_USER, MAP_DATA_PASSWORD]
-  })
-}
-
-import './GoogleMap.scss';
 
 const AnyReactComponent = ({ text }) => <div style={{ transform: 'translate(-50%, -50%)' }} class="popup" onClick={(event) => { 
     if(event.target.tagName.toLowerCase() != 'p') {
@@ -54,16 +44,16 @@ const AnyReactComponent = ({ text }) => <div style={{ transform: 'translate(-50%
 
 </div>;
 
-class GoogleMap extends Component {
+class LocationMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
       allPOI: [],
       center: {
-        lat: 0,
-        lng: 0
+        lat: -33.8714378,
+        lng: 151.2036327
       },
-      zoom: 14,
+      zoom: 15,
       poi: []
     };
   }
@@ -286,4 +276,4 @@ class GoogleMap extends Component {
   }
 }
 
-export default GoogleMap;
+export default LocationMap;
