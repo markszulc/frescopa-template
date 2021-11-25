@@ -6,6 +6,13 @@
   overflow: hidden;
   background-color: #EAA33A;
   margin-bottom: 60px;
+
+  @media (max-width: 768px) {
+    border-radius: 0px;
+    margin-bottom: 0px;
+  }
+
+
 }
 .cmp-teaser__image {
   
