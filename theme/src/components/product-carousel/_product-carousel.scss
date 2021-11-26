@@ -18,6 +18,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+}
   }
   .product__card__image {
     max-height: 232px;
