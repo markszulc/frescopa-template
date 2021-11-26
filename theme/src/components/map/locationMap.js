@@ -122,12 +122,12 @@ class LocationMap extends Component {
           <div class="search">
             <p class="search__title">Find another location</p>
             <div class="search__box">
-               <input class="search__input" type="text" placeholder="Zip Code" name="search"></input>
+               <input class="search__input" type="text" placeholder="Post Code" name="search"></input>
                <button class="search__button" onClick={() => {const postcode = document.getElementsByClassName("search__input")[0].value;this.searchPOI(postcode);}}>Search</button>
             </div>
           </div>
         </div>
-        <div class="map" style={{ height: '100vh', width: '60%' }}>
+        <div class="map">
           <GoogleMapReact
             options={{
               disableDefaultUI: true,

@@ -6,16 +6,20 @@
   overflow: hidden;
   background-color: #EAA33A;
   margin-bottom: 60px;
+  
 
   @media (max-width: 768px) {
     border-radius: 0px;
     margin-bottom: 0px;
+    min-height: 500px;
   }
 
 
 }
 .cmp-teaser__image {
-  
+  @media (max-width: 768px) {
+    display: none;
+  }
 
   & .cmp-image {
     margin: 0;
@@ -28,10 +32,20 @@
   }
 }
 .cmp-teaser__content {
+  @media (max-width: 768px) {
+    position: relative;
+    margin: 120px 60px 20px 60px;
+    left: unset;
+    top: unset;
+  }
+  
   position: absolute;
   top: 30%;
   left: 5%;
   max-width: 560px;
+
+
+
 }
 .cmp-teaser__pretitle {
   color: #ffffff;

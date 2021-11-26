@@ -8,11 +8,17 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 20px #0000001A;
     border-radius: 10px;
-  
+    @media (max-width: 768px) {
+      box-shadow: none;
+
+    }
 
 }
 
   .cmp-teaser__image {
+    @media (max-width: 768px) {
+      display: block;
+    }
     position: relative;
     padding-bottom: 360px;
     overflow: hidden;
@@ -36,6 +42,10 @@
     padding: 0px 40px 0 40px;
     transform: none;
     max-width: 100%;
+    @media (max-width: 768px) {
+      margin: 60px 60px 20px 60px;
+    }
+
   }
   .cmp-teaser__pretitle {
     color: $color-shade-3;
@@ -134,11 +144,19 @@
 .textAtBottom:nth-of-type(odd) {
     .cmp-teaser{
       margin-left: 20px;
+      @media (max-width: 768px) {
+        margin-left: 0px;
+        border-radius: 0px;
+      }
     }
 }
 
 .textAtBottom:nth-of-type(even) {
   .cmp-teaser{
     margin-right: 20px;
+    @media (max-width: 768px) {
+      margin-right: 0px;
+      border-radius: 0px;
+    }
   }
 }

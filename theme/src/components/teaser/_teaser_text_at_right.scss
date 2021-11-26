@@ -1,8 +1,8 @@
 .textAtRight {
   .cmp-teaser {
-    position: static;
     display: flex;
     justify-content:flex-start;
+    flex-direction: column;
     margin-bottom: 60px;
     background-color: #F0E0D2;
     background-image: url("resources/images/background02.png");
@@ -10,11 +10,20 @@
   
     @media (max-width: 768px) {
       margin-bottom: 0px;
+      position: relative;
+    
     }
   }
   .cmp-teaser__image {
-    
+    @media (max-width: 768px) {
+      display: block;
+    }
+
     & img {
+      @media (max-width: 768px) {
+        object-fit: cover;
+        height: 340px;
+      }
       top: 0;
       left: 0;
       display: block;
@@ -24,6 +33,18 @@
     }
   }
   .cmp-teaser__content {
+    @media (max-width: 768px) {
+      margin: 20px 70px 20px 70px;
+      max-width: 340px;
+
+      .cmp-teaser__title-link {
+        color: #F0E0D2 !important;
+      }
+
+      .cmp-teaser__description {
+        color: #F0E0D2 !important;
+      }
+    }
     position: static;
     top: 0;
     left: 0;
