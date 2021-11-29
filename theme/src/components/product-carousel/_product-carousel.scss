@@ -1,5 +1,5 @@
 .productcarousel {
-  padding: 60px;
+  padding: 50px;
   background-image: url("resources/images/background01.png");
   background-size: cover;
   border-radius: 10px;
@@ -38,10 +38,16 @@
 
     img {
       max-height: 232px;
+      width: 100%;
+      object-fit: contain;
     }
   }
 
   .product__card {
+    @media (max-width: 768px) {
+      box-shadow: none;
+      width: 100%;
+    } 
     width: 380px;
     height: 410px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -57,10 +63,7 @@
     flex-direction: column;
     justify-content: center;
 
-    @media (max-width: 768px) {
-      box-shadow: none;
 
-    }
 
     a {
       text-decoration: none;
