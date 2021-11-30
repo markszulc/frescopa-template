@@ -149,7 +149,7 @@
                             </policy_root>
                             <policy_default
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2021-10-27T14:04:03.611+11:00"
+                                jcr:lastModified="{Date}2021-11-30T20:52:40.623+11:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Content"
