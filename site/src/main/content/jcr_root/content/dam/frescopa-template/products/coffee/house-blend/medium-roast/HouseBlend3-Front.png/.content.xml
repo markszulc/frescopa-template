@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="058efa1b-40b0-4227-97d0-72e89b4e6441">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-11-30T21:12:03.112+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c145 79.163499, 2018/08/13-16:40:22        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stEvt=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceEvent#&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:photoshop=&quot;http://ns.adobe.com/photoshop/1.0/&quot; xmp:CreateDate=&quot;2021-11-17T21:06:35+11:00&quot; xmp:MetadataDate=&quot;2021-11-17T21:06:35+11:00&quot; xmp:ModifyDate=&quot;2021-11-17T21:06:35+11:00&quot; xmpMM:InstanceID=&quot;xmp.iid:491e53ca-13be-d24d-99ec-0a8138f54786&quot; xmpMM:DocumentID=&quot;adobe:docid:photoshop:c084260f-558c-e347-bb48-bce2b99e6f5e&quot; xmpMM:OriginalDocumentID=&quot;xmp.did:6a83984f-3536-7a4d-a816-bd0f637b70c8&quot; dc:format=&quot;image/png&quot; photoshop:ColorMode=&quot;3&quot; photoshop:ICCProfile=&quot;sRGB IEC61966-2.1&quot;> &lt;xmpMM:History> &lt;rdf:Seq> &lt;rdf:li stEvt:action=&quot;created&quot; stEvt:instanceID=&quot;xmp.iid:6a83984f-3536-7a4d-a816-bd0f637b70c8&quot; stEvt:when=&quot;2021-11-17T21:06:35+11:00&quot;/> &lt;rdf:li stEvt:action=&quot;saved&quot; stEvt:instanceID=&quot;xmp.iid:491e53ca-13be-d24d-99ec-0a8138f54786&quot; stEvt:when=&quot;2021-11-17T21:06:35+11:00&quot; stEvt:changed=&quot;/&quot;/> &lt;/rdf:Seq> &lt;/xmpMM:History> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2021-11-30T21:12:02.572+11:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}27.77430534362793"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}27.77430534362793"
+            dam:Progressive="no"
+            dam:sha1="ad8cc66c5ce2fce581a6ef2b21fd546d340859ad"
+            dam:size="{Long}3190096"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            tiff:ImageLength="{Long}2000"
+            tiff:ImageWidth="{Long}2000"
+            xmp:CreateDate="{Date}2021-11-17T21:06:35.000+11:00"
+            xmp:MetadataDate="{Date}2021-11-17T21:06:35.000+11:00"
+            xmp:ModifyDate="{Date}2021-11-17T21:06:35.000+11:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:c084260f-558c-e347-bb48-bce2b99e6f5e"
+            xmpMM:InstanceID="xmp.iid:491e53ca-13be-d24d-99ec-0a8138f54786"
+            xmpMM:OriginalDocumentID="xmp.did:6a83984f-3536-7a4d-a816-bd0f637b70c8"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

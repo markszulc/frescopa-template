@@ -4,7 +4,7 @@
     <jcr:content
         cq:cifCategoryPage="/content/frescopa-template/us/en/category-page"
         cq:cifProductPage="/content/frescopa-template/us/en/product-page"
-        cq:lastModified="{Date}2021-11-14T11:38:36.177+11:00"
+        cq:lastModified="{Date}2021-11-26T13:29:14.506+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/frescopa-template/settings/wcm/templates/home-page"
         jcr:isCheckedOut="{Boolean}true"
@@ -137,6 +137,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
@@ -163,6 +167,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <actions jcr:primaryType="nt:unstructured">
                             <item0

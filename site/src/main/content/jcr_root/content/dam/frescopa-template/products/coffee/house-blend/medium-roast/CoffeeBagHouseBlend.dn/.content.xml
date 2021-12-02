@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3c1df234-640e-4070-b54c-ec5899291152">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-11-30T21:12:03.915+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2021-11-30T21:12:03.278+11:00"
+            dam:sha1="c6566eb5c05a35aa98dd5ed2a717a2ab1ae0312e"
+            dam:size="{Long}30336363"
+            dc:format="model/x-adobe-dn"
+            dc:title="CoffeeBagMaster.dn"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreateDate="{Date}2021-11-17T19:45:52.887+11:00"
+            xmp:CreatorTool="AdobeDCXTest"
+            xmp:MetadataDate="{Date}2021-11-17T19:45:53.317+11:00"
+            xmp:ModifyDate="{Date}2021-11-17T19:45:53.317+11:00"
+            xmpMM:DocumentID="ec343bd3-1e94-4dbe-8c6f-2819680bb538"
+            xmpMM:InstanceID="3f7a5040-42c4-400b-85eb-429dd08d4e97"
+            xmpMM:OriginalDocumentID="ec343bd3-1e94-4dbe-8c6f-2819680bb538"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
