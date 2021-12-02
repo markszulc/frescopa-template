@@ -185,6 +185,7 @@
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
+                                        cq:styleGroupMultiple="true"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
@@ -199,6 +200,17 @@
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
+                                    <item1
+                                        cq:styleGroupLabel="Page Inner Container Styles"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-container--special-contents"
+                                                cq:styleId="1637217880621"
+                                                cq:styleLabel="Special contents"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item1>
                                 </cq:styleGroups>
                             </policy_default>
                             <policy_main
@@ -372,6 +384,8 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <text jcr:primaryType="nt:unstructured">
                             <policy_default
+                                jcr:lastModified="{Date}2021-11-18T15:35:07.088+09:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Text"
                                 sling:resourceType="wcm/core/components/policy/policy">
@@ -385,13 +399,25 @@
                                             override="true">
                                             <item0
                                                 jcr:primaryType="nt:unstructured"
+                                                description="h2"
+                                                tag="h2"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="h3"
+                                                tag="h3"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="h4"
+                                                tag="h4"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
                                                 description="Paragraph"
                                                 tag="p"/>
-                                            <item1
+                                            <item4
                                                 jcr:primaryType="nt:unstructured"
                                                 description="Quote"
                                                 tag="blockquote"/>
-                                            <item2
+                                            <item5
                                                 jcr:primaryType="nt:unstructured"
                                                 description="Preformatted"
                                                 tag="pre"/>
@@ -446,13 +472,13 @@
                                         features="*"/>
                                     <justify
                                         jcr:primaryType="nt:unstructured"
-                                        features="-"/>
+                                        features="*"/>
                                     <format
                                         jcr:primaryType="nt:unstructured"
                                         features="bold,italic"/>
                                     <links
                                         jcr:primaryType="nt:unstructured"
-                                        features="modifylink,unlink"/>
+                                        features="-"/>
                                     <subsuperscript
                                         jcr:primaryType="nt:unstructured"
                                         features="-"/>

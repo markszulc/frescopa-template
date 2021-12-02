@@ -4,5 +4,7 @@
     <jcr:content
         jcr:primaryType="nt:unstructured"
         jcr:title="Line Art"
-        sourcing="false"/>
+        sourcing="false">
+        <folderThumbnail/>
+    </jcr:content>
 </jcr:root>
