@@ -351,5 +351,14 @@
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2021-12-09T22:07:23.878+11:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>
