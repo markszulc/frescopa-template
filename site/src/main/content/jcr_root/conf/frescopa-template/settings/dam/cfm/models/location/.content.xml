@@ -4,8 +4,8 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2021-11-12T00:27:46.888Z"
-        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastModified="{Date}2021-12-09T20:08:15.798+11:00"
+        cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-11-12T00:27:52.650Z"
         cq:lastReplicated_publish="{Date}2021-11-12T00:27:52.650Z"
         cq:lastReplicatedBy="MSZULC@ADOBE.COM"
@@ -18,7 +18,7 @@
         jcr:title="Location"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
-        isLocked="{Boolean}true"
+        isLocked="{Boolean}false"
         status="enabled">
         <metadata jcr:primaryType="nt:unstructured"/>
         <model
@@ -31,8 +31,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2021-11-12T00:27:46.888Z"
-                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2021-12-09T20:08:15.798+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
@@ -102,7 +102,6 @@
                             showEmptyInReadOnly="true"
                             step="1"
                             typeHint="long"
-                            validation="None"
                             valueType="long">
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_636675406218>
@@ -116,21 +115,29 @@
                             name="locationPhoto"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
+                            required="on"
+                            rootPath="/content/dam/frescopa-template/locations"
                             showEmptyInReadOnly="true"
-                            showThumbnail="false"
+                            showThumbnail="true"
+                            validation="cfm.validation.contenttype.image"
                             valueType="string/reference[]">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
                                 mvmaxitems="5"
+                                showThumbnail="true"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
                             <field
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/models/editor/components/contentreference"
                                 name="locationPhoto"
-                                renderReadOnly="false">
+                                renderReadOnly="false"
+                                rootPath="/content/dam/frescopa-template/locations"
+                                showThumbnail="true"
+                                validation="cfm.validation.contenttype.image">
                                 <granite:data
                                     jcr:primaryType="nt:unstructured"
                                     mvmaxitems="5"
+                                    showThumbnail="true"
                                     thumbnail-validation="cfm.validation.thumbnail.show"/>
                             </field>
                         </_x0031_636675477305>
