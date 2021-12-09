@@ -1,0 +1,67 @@
+.cmp-contentfragmentlist {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  
+    
+        /* elements */
+    .cmp-contentfragment {
+        margin-top: 30px;
+
+
+        
+            .cmp-contentfragment__title {
+                display: none;
+            }
+
+            .cmp-contentfragment__elements {
+                float: left;
+                width: 100%;
+                display: block;
+        
+                .cmp-contentfragment__element--locationName {
+
+                    .cmp-contentfragment__element-value{
+                        color: $color-accent-darker;
+                        font-weight: 400;
+                        font-size: 30px;
+                    }                    
+                }
+
+                .cmp-contentfragment__element--phoneNumber {
+                    .cmp-contentfragment__element-value{
+                        font-weight: 500;
+                        font-size: 20px;
+                    }   
+                }
+
+                .cmp-contentfragment__element {
+                    font-family: $font-family;
+                    border-left: 0;
+                    margin:0;
+                    padding: 0;
+                    float: left;
+                    width: 100%;  
+                }
+        
+                .cmp-contentfragment__element-title {
+                    color: $color-foreground;
+                    font-size: $font-size;
+                    padding-top: 1em;
+                    display: none;
+                }
+        
+                .cmp-contentfragment__element-value {
+                    padding-top: 0.5em;
+                    font-weight: 300;
+                    font-size: $font-size;
+                    margin-inline-start: 0px;
+                }
+
+
+        
+                
+
+        }
+    }
+}
