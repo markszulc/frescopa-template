@@ -4,7 +4,7 @@
     <jcr:content
         cq:cifCategoryPage="/content/frescopa-template/us/en/category-page"
         cq:cifProductPage="/content/frescopa-template/us/en/product-page"
-        cq:lastModified="{Date}2021-12-09T17:10:19.563+11:00"
+        cq:lastModified="{Date}2021-12-09T21:54:25.131+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/frescopa-template/settings/wcm/templates/home-page"
         jcr:isCheckedOut="{Boolean}true"
@@ -144,7 +144,7 @@
     <tea/>
     <machines/>
     <accessories/>
-    <store-locator/>
+    <locations/>
     <sustainability/>
     <product-page/>
     <category-page/>
