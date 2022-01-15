@@ -149,14 +149,14 @@
                             </policy_root>
                             <policy_default
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2021-11-30T20:52:40.623+11:00"
+                                jcr:lastModified="{Date}2022-01-16T09:56:08.846+11:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Content"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedColorSwatches="#A03532"
                                 backgroundColorEnabled="true"
-                                components="[group:Core Content,group:Core Form,group:Core Structure]"
+                                components="[/apps/core/cif/components/commerce/product/v2/product,/apps/core/cif/components/commerce/relatedproducts/v1/relatedproducts,group:Core Content,group:Core Form,group:Core Structure]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -737,6 +737,38 @@
                 </tabs>
             </components>
         </wcm>
+        <cif jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <commerce jcr:primaryType="nt:unstructured">
+                    <product jcr:primaryType="nt:unstructured">
+                        <v2 jcr:primaryType="nt:unstructured">
+                            <product jcr:primaryType="nt:unstructured">
+                                <policy_1642287451731
+                                    jcr:lastModified="{Date}2022-01-16T09:58:13.735+11:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Product Detail"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    loadClientPrice="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                        <item0 jcr:primaryType="nt:unstructured">
+                                            <cq:styles jcr:primaryType="nt:unstructured">
+                                                <item0
+                                                    cq:styleClasses="pdp-minimal"
+                                                    cq:styleId="1642287456461"
+                                                    cq:styleLabel="Compact Product Detail"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                            </cq:styles>
+                                        </item0>
+                                    </cq:styleGroups>
+                                </policy_1642287451731>
+                            </product>
+                        </v2>
+                    </product>
+                </commerce>
+            </components>
+        </cif>
     </core>
     <cq jcr:primaryType="nt:unstructured">
         <experience-fragments jcr:primaryType="nt:unstructured">

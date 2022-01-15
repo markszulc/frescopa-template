@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2022-01-14T14:11:11.594+11:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/frescopa-template/settings/wcm/templates/product-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/cif/components/structure/page/v2/page">
@@ -9,9 +11,18 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container">
             <container
+                cq:styleIds="[1635303830163]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
-                layout="responsiveGrid"/>
+                layout="responsiveGrid">
+                <product
+                    jcr:created="{Date}2022-01-14T14:11:11.587+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-01-14T14:11:11.587+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/cif/components/commerce/product/v2/product"/>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

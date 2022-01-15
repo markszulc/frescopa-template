@@ -1,0 +1,31 @@
+.pdp-minimal {
+
+    .productFullDetail__root{
+        grid-template-areas:
+        'images title'
+        'images actions'
+        'images options'
+        'images quantity'
+        'images cart'
+        'images description'
+        'images details'
+        'images .';
+        grid-template-rows: repeat(6, min-content) 1fr [fold];
+    }
+    
+    .carousel__root{
+        grid-template-columns: 0;
+    }
+
+    .thumbnailList__root{
+        display: none;
+    }
+
+    .productFullDetail__description {
+        grid-area: description;
+    }
+
+    .productFullDetail__details {
+        grid-area: details;
+    }
+}
