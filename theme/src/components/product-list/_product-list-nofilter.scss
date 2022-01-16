@@ -1,0 +1,8 @@
+.hidefilter {
+  .productcollection__filters {
+    display: none;
+  }
+  .productcollection__items {
+    grid-column: span 2;
+  }
+}

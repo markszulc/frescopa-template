@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-14T13:24:08.881+11:00"
+        cq:lastModified="{Date}2022-01-17T08:49:17.675+11:00"
         cq:lastModifiedBy="admin"
         cq:policy="core/wcm/components/page/v2/page/policy_default"
         jcr:primaryType="nt:unstructured"
@@ -14,7 +14,24 @@
             <container
                 cq:policy="core/wcm/components/container/v1/container/policy_default"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <core jcr:primaryType="nt:unstructured">
+                    <cif jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <commerce jcr:primaryType="nt:unstructured">
+                                <productlist jcr:primaryType="nt:unstructured">
+                                    <v2 jcr:primaryType="nt:unstructured">
+                                        <productlist
+                                            cq:policy="core/cif/components/commerce/productlist/v2/productlist/policy_1642369435380"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    </v2>
+                                </productlist>
+                            </commerce>
+                        </components>
+                    </cif>
+                </core>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

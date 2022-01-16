@@ -1,0 +1,36 @@
+.onecolumn {
+  .productcollection__items{
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .productcollection__item{
+    display: grid;
+    grid-template-columns: fit-content(300px) 1fr;
+    grid-template-rows: fit-content(237px) 1fr;
+  }
+
+  .productcollection__item-images{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  .productcollection__item-image{
+    max-height: 400px;
+    width: auto;
+  }
+
+  .productcollection__item-title{
+    font: normal normal normal 48px/56px $font-family-title;
+    color: #58181D;
+    grid-column: 2;
+  }
+
+  .price {
+    grid-column: 2;
+    font-size: 21px;
+    color: #58181d;
+    font-family: roboto,Helvetica,Arial,sans-serif;
+  }
+
+
+}
