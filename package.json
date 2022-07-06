@@ -1,6 +1,6 @@
 {
   "name": "frescopa-template",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Coffee Based AEM Site Template used as a starter template for general purpose websites",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
