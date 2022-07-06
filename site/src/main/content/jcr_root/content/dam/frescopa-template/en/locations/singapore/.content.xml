@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="16afed97-80c7-493b-8203-7e574cd6423a">
+    <jcr:content
+        cq:name="singapore"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-27T22:27:37.440+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Singapore"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-27T22:27:37.440+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Singapore"
+                city_x0040_LastModified="{Date}2022-06-27T22:27:37.356+10:00"
+                lat="{Double}1.2953198"
+                lat_x0040_LastModified="{Date}2022-06-27T22:27:37.360+10:00"
+                locationName="Frescopa Singapore"
+                locationName_x0040_LastModified="{Date}2022-06-27T22:27:37.354+10:00"
+                locationPhoto_x0040_LastModified="{Date}2022-06-27T22:25:45.015+10:00"
+                long="{Double}103.8596223"
+                long_x0040_LastModified="{Date}2022-06-27T22:27:37.361+10:00"
+                phoneNumber="+65 6511 5500"
+                phoneNumber_x0040_LastModified="{Date}2022-06-27T22:27:37.355+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-27T22:25:45.015+10:00"
+                postzipCode="{Long}38988"
+                postzipCode_x0040_LastModified="{Date}2022-06-27T22:27:37.357+10:00"
+                streetAddress="Suntec Tower Three #06-02, 8 Temasek Boulevard"
+                streetAddress_x0040_LastModified="{Date}2022-06-27T22:27:37.355+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,8 +1,8 @@
 .textAtRight {
   .cmp-teaser {
     display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
     margin-bottom: 60px;
     background-color: #F0E0D2;
     background-image: url("resources/images/background02.png");
@@ -11,7 +11,7 @@
     @media (max-width: 768px) {
       margin-bottom: 0px;
       position: relative;
-      flex-direction: column;
+      flex-direction: column-reverse;
     
     }
   }

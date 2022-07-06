@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-16T21:25:35.582+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/frescopa-template/settings/wcm/templates/content-page"
+        jcr:description="Sourced from a unique mix of micro lots from Hulia, Columbia, this light roast boasts crisp cherry &amp; floral notes while providing deep, sweet flavors of caramel and chocolate. Morning Muse is the perfect roast for whatever your day brings."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Introducing Morning Muse Light Roast"
+        sling:resourceType="core/wcm/components/page/v3/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <title
+                        jcr:created="{Date}2022-06-16T21:23:15.730+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-16T21:23:15.730+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v3/title"/>
+                </container>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-06-16T21:25:35.569+10:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"
+            fileReference="/content/dam/frescopa-template/en/stock/AdobeStock_301817842.jpeg"/>
+    </jcr:content>
+</jcr:root>

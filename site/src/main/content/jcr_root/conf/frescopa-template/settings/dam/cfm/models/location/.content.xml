@@ -4,21 +4,14 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2021-12-09T20:08:15.798+11:00"
+        cq:lastModified="{Date}2022-06-16T20:32:20.655+10:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-11-12T00:27:52.650Z"
-        cq:lastReplicated_publish="{Date}2021-11-12T00:27:52.650Z"
-        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
-        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
         cq:scaffolding="/conf/frescopa-template/settings/dam/cfm/models/location/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
         jcr:title="Location"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
-        isLocked="{Boolean}false"
         status="enabled">
         <metadata jcr:primaryType="nt:unstructured"/>
         <model
@@ -31,18 +24,18 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2021-12-09T20:08:15.798+11:00"
+                    jcr:lastModified="{Date}2022-06-16T20:32:20.655+10:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
-                        <_x0031_636621988638
+                        maxGeneratedOrder="29">
+                        <_x0031_655375273946
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="Location Name"
-                            listOrder="1"
+                            listOrder="21"
                             maxlength="255"
                             metaType="text-single"
                             name="locationName"
@@ -51,25 +44,26 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636621988638>
-                        <_x0031_636675364221
+                        </_x0031_655375273946>
+                        <_x0031_655375301459
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="Phone Number"
-                            listOrder="1"
+                            listOrder="22"
                             maxlength="255"
                             metaType="text-single"
                             name="phoneNumber"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            validation="None"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636675364221>
-                        <_x0031_636675386667
+                        </_x0031_655375301459>
+                        <_x0031_655375336698
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="Street Address"
-                            listOrder="1"
+                            listOrder="23"
                             maxlength="255"
                             metaType="text-single"
                             name="streetAddress"
@@ -77,12 +71,12 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636675386667>
-                        <_x0031_636675395432
+                        </_x0031_655375336698>
+                        <_x0031_655375354765
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="City"
-                            listOrder="1"
+                            listOrder="24"
                             maxlength="255"
                             metaType="text-single"
                             name="city"
@@ -90,12 +84,12 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636675395432>
-                        <_x0031_636675406218
+                        </_x0031_655375354765>
+                        <_x0031_655375373148
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
-                            fieldLabel="Post/Zip code"
-                            listOrder="3"
+                            fieldLabel="Post/Zip Code"
+                            listOrder="25"
                             metaType="number"
                             name="postzipCode"
                             renderReadOnly="false"
@@ -104,58 +98,42 @@
                             typeHint="long"
                             valueType="long">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636675406218>
-                        <_x0031_636675477305
+                        </_x0031_655375373148>
+                        <_x0031_655375400667
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
                             fieldLabel="Location Photo"
                             filter="hierarchy"
-                            listOrder="8"
+                            listOrder="26"
                             metaType="reference"
                             name="locationPhoto"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            required="on"
-                            rootPath="/content/dam/frescopa-template/locations"
+                            rootPath="/content/dam/frescopa-template/en/locations"
                             showEmptyInReadOnly="true"
                             showThumbnail="true"
                             validation="cfm.validation.contenttype.image"
-                            valueType="string/reference[]">
+                            valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
-                                mvmaxitems="5"
                                 showThumbnail="true"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
-                            <field
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                                name="locationPhoto"
-                                renderReadOnly="false"
-                                rootPath="/content/dam/frescopa-template/locations"
-                                showThumbnail="true"
-                                validation="cfm.validation.contenttype.image">
-                                <granite:data
-                                    jcr:primaryType="nt:unstructured"
-                                    mvmaxitems="5"
-                                    showThumbnail="true"
-                                    thumbnail-validation="cfm.validation.thumbnail.show"/>
-                            </field>
-                        </_x0031_636675477305>
-                        <_x0031_636675462278
+                        </_x0031_655375400667>
+                        <_x0031_655375458215
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
                             fieldLabel="Map Details"
-                            listOrder="11"
+                            listOrder="27"
                             metaType="tab-placeholder"
                             name="placeholder"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string/tab"/>
-                        <_x0031_636675557351
+                        <_x0031_655375469194
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                             fieldLabel="Latitude"
-                            listOrder="3"
+                            listOrder="28"
                             metaType="number"
                             name="lat"
                             renderReadOnly="false"
@@ -165,33 +143,24 @@
                             typeHint="double"
                             valueType="double">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636675557351>
-                        <_x0031_636676197469
+                        </_x0031_655375469194>
+                        <_x0031_655375501630
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                             fieldLabel="Longitude"
-                            listOrder="3"
+                            listOrder="29"
                             metaType="number"
                             name="long"
                             renderReadOnly="false"
                             required="on"
                             showEmptyInReadOnly="true"
                             step="any"
-                            typeHint="double"
                             valueType="double">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_636676197469>
+                        </_x0031_655375501630>
                     </items>
                 </content>
             </cq:dialog>
         </model>
-        <change-register jcr:primaryType="nt:unstructured">
-            <_x0031_636685723799
-                jcr:primaryType="nt:unstructured"
-                changePath="/conf/frescopa-template/settings/dam/cfm/models/location/jcr:content/model/cq:dialog/content/items/1636624167870"
-                elementPath="/conf/frescopa-template/settings/dam/cfm/models/location/jcr:content/model/cq:dialog/content/items/1636624167870"
-                modelChangeType="MODEL_FIELD_REMOVED"
-                modelPath="/conf/frescopa-template/settings/dam/cfm/models/location"/>
-        </change-register>
     </jcr:content>
 </jcr:root>

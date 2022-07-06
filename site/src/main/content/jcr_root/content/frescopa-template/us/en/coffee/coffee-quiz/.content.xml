@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-28T23:05:13.093+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/frescopa-template/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Coffee Quiz"
+        sling:resourceType="core/wcm/components/page/v3/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <teaser_copy_copy
+                        jcr:created="{Date}2022-06-16T18:30:30.844+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-28T23:05:13.069+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Give us the skinny (or the breve) on your coffee. "
+                        sling:resourceType="core/wcm/components/teaser/v2/teaser"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/frescopa-template/en/campaigns/3cups.png"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        pretitle="MyBarista Coffee Quiz"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

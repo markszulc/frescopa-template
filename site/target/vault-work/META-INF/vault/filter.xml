@@ -4,5 +4,4 @@
     <filter root="/content/frescopa-template" mode="merge"/>
     <filter root="/content/dam/frescopa-template" mode="merge"/>
     <filter root="/content/experience-fragments/frescopa-template" mode="merge"/>
-    <filter root="/content/cq:graphql" mode="merge"/>
 </workspaceFilter>

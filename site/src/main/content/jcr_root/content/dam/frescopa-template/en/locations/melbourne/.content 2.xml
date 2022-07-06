@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3c01e3e3-4898-4a8f-8418-752293609884">
+    <jcr:content
+        cq:name="melbourne"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-16T20:59:03.944+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Melbourne"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-16T20:59:03.944+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Melbourne"
+                city_x0040_LastModified="{Date}2022-06-16T20:59:03.769+10:00"
+                lat="{Double}-37.829316372345886"
+                lat_x0040_LastModified="{Date}2022-06-16T20:59:03.777+10:00"
+                locationName="Melbourne"
+                locationName_x0040_LastModified="{Date}2022-06-16T20:59:03.767+10:00"
+                locationPhoto="/content/dam/frescopa-template/en/locations/AdobeStock_209697498.jpeg"
+                locationPhoto_x0040_LastModified="{Date}2022-06-16T20:59:03.774+10:00"
+                long="{Double}144.9620705846271"
+                long_x0040_LastModified="{Date}2022-06-16T20:59:03.778+10:00"
+                phoneNumber="+61 3 9778 4100"
+                phoneNumber_x0040_LastModified="{Date}2022-06-16T20:59:03.768+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-16T20:58:04.066+10:00"
+                postzipCode="{Long}3000"
+                postzipCode_x0040_LastModified="{Date}2022-06-16T20:59:03.769+10:00"
+                streetAddress="101 Moray Street"
+                streetAddress_x0040_LastModified="{Date}2022-06-16T20:59:03.768+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

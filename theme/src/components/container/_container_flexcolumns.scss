@@ -1,0 +1,21 @@
+.cmp-container {}
+
+.flexcolummns{
+    .cmp-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        @media (max-width: 768px) {
+            margin-bottom: 0px;
+        }
+    }
+
+    .teaser {
+        max-width: 49%;
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+
+    }
+}

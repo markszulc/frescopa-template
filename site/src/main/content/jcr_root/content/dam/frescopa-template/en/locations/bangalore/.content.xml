@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="22821e06-3b68-4ebb-b0e3-b7f590f187ac">
+    <jcr:content
+        cq:name="bangalore"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-27T22:46:35.320+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Bangalore"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-27T22:46:35.320+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Bengaluru"
+                city_x0040_LastModified="{Date}2022-06-27T22:46:35.283+10:00"
+                lat="{Double}12.933978"
+                lat_x0040_LastModified="{Date}2022-06-27T22:46:35.284+10:00"
+                locationName="Frescopa Bangalore"
+                locationName_x0040_LastModified="{Date}2022-06-27T22:46:35.282+10:00"
+                locationPhoto_x0040_LastModified="{Date}2022-06-27T22:45:27.572+10:00"
+                long="{Double}77.6873953"
+                long_x0040_LastModified="{Date}2022-06-27T22:46:35.284+10:00"
+                phoneNumber_x0040_LastModified="{Date}2022-06-27T22:45:27.572+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-27T22:45:27.572+10:00"
+                postzipCode="{Long}560087"
+                postzipCode_x0040_LastModified="{Date}2022-06-27T22:46:35.283+10:00"
+                streetAddress="Prestige Platina Tech Park Marathahalli-Sarjapur Outer Ring Rd Bhoganahalli, Village, Hobli, Kadubeesanahalli, Varthur"
+                streetAddress_x0040_LastModified="{Date}2022-06-27T22:46:35.282+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

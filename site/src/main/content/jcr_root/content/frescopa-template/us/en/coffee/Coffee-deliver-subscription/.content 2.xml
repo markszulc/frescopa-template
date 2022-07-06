@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-19T20:02:22.315+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/frescopa-template/settings/wcm/templates/content-page"
+        jcr:description="Start a MyBarista subscription to get a carefully selected variety of coffees sent to you each month. As you rate the coffees you try, we’ll fine-tune your flavor profile to give you flavors we think you’ll love."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Your coffee. On your doorstep."
+        sling:resourceType="core/wcm/components/page/v3/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <title
+                        jcr:created="{Date}2022-06-16T21:23:15.730+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-16T21:23:15.730+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/title/v3/title"/>
+                    <image
+                        jcr:created="{Date}2022-06-16T21:32:10.900+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-19T20:01:50.428+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/image/v3/image"
+                        fileReference="/content/dam/frescopa-template/en/products/Package MyBarista.png"
+                        imageFromPageImage="false"/>
+                </container>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-06-19T20:02:22.304+10:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="true"
+            fileReference="/content/dam/frescopa-template/en/products/Package MyBarista.png"/>
+    </jcr:content>
+</jcr:root>

@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-30T20:52:40.640+11:00"
+        cq:lastModified="{Date}2022-06-27T22:30:29.845+10:00"
         cq:lastModifiedBy="admin"
-        cq:policy="core/wcm/components/page/v2/page/policy_default"
+        cq:policy="core/wcm/components/page/v3/page/policy_default"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
@@ -18,12 +18,39 @@
                 <container
                     cq:policy="core/wcm/components/container/v1/container/policy_default"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <core jcr:primaryType="nt:unstructured">
+                        <wcm jcr:primaryType="nt:unstructured">
+                            <components jcr:primaryType="nt:unstructured">
+                                <teaser jcr:primaryType="nt:unstructured">
+                                    <v2 jcr:primaryType="nt:unstructured">
+                                        <teaser
+                                            cq:policy="core/wcm/components/teaser/v2/teaser/policy_default"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    </v2>
+                                </teaser>
+                                <title jcr:primaryType="nt:unstructured">
+                                    <v3 jcr:primaryType="nt:unstructured">
+                                        <title
+                                            cq:policy="core/wcm/components/title/v3/title/policy_default"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    </v3>
+                                </title>
+                                <contentfragmentlist jcr:primaryType="nt:unstructured">
+                                    <v2 jcr:primaryType="nt:unstructured">
+                                        <contentfragmentlist
+                                            cq:policy="core/wcm/components/contentfragmentlist/v2/contentfragmentlist/policy_1656332911742"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    </v2>
+                                </contentfragmentlist>
+                            </components>
+                        </wcm>
+                    </core>
+                </container>
             </container>
-            <container_358211273
-                cq:policy="core/wcm/components/container/v1/container/policy_default"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
     </jcr:content>
 </jcr:root>

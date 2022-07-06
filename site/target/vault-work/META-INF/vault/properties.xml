@@ -4,7 +4,7 @@
 <comment>Standard AEM Site Template</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2021-10-26T11:15:04.810Z</entry>
+<entry key="created">2022-07-06T05:37:08.261Z</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
 <entry key="description">Site template content package of Standard AEM Site Template</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

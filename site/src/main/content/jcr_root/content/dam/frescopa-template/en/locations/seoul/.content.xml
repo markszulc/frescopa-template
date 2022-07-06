@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8eef1ce3-abd2-4789-90e2-5aeb45759daf">
+    <jcr:content
+        cq:name="seoul"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-27T22:42:27.549+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Seoul"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-27T22:42:27.549+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Seoul"
+                city_x0040_LastModified="{Date}2022-06-27T22:42:27.521+10:00"
+                lat="{Double}37.5091322"
+                lat_x0040_LastModified="{Date}2022-06-27T22:42:27.522+10:00"
+                locationName="Frescopa Seoul"
+                locationName_x0040_LastModified="{Date}2022-06-27T22:42:27.520+10:00"
+                locationPhoto_x0040_LastModified="{Date}2022-06-27T22:40:35.112+10:00"
+                long="{Double}127.0586624"
+                long_x0040_LastModified="{Date}2022-06-27T22:42:27.522+10:00"
+                phoneNumber_x0040_LastModified="{Date}2022-06-27T22:40:35.112+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-27T22:40:35.112+10:00"
+                postzipCode_x0040_LastModified="{Date}2022-06-27T22:40:35.112+10:00"
+                streetAddress="19F, Parnas Tower, 521 Teheran-ro, Samseong 1(il)-dong, Gangnam-gu"
+                streetAddress_x0040_LastModified="{Date}2022-06-27T22:42:27.520+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

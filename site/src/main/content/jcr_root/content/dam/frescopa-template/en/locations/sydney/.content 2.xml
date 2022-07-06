@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0ea69451-f229-492f-a944-5ae71e45d217">
+    <jcr:content
+        cq:name="sydney"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-16T20:57:29.529+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sydney"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-16T20:57:29.529+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Sydney"
+                city_x0040_LastModified="{Date}2022-06-16T20:57:29.479+10:00"
+                lat="{Double}-33.8727478"
+                lat_x0040_LastModified="{Date}2022-06-16T20:57:29.484+10:00"
+                locationName="Sydney"
+                locationName_x0040_LastModified="{Date}2022-06-16T20:57:29.477+10:00"
+                locationPhoto="/content/dam/frescopa-template/en/locations/AdobeStock_249582332.jpeg"
+                locationPhoto_x0040_LastModified="{Date}2022-06-16T20:57:29.480+10:00"
+                long="{Double}151.202886"
+                long_x0040_LastModified="{Date}2022-06-16T20:57:29.487+10:00"
+                phoneNumber="+61 2 9778 4100"
+                phoneNumber_x0040_LastModified="{Date}2022-06-16T20:57:29.478+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-16T20:56:24.905+10:00"
+                postzipCode="{Long}2000"
+                postzipCode_x0040_LastModified="{Date}2022-06-16T20:57:29.479+10:00"
+                streetAddress="201 Sussex Street"
+                streetAddress_x0040_LastModified="{Date}2022-06-16T20:57:29.478+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

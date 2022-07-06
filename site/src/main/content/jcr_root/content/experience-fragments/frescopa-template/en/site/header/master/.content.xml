@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-10-27T16:07:11.511+11:00"
+        cq:lastModified="{Date}2022-06-16T00:02:59.677+10:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/frescopa-template/settings/wcm/templates/xf-web-variation"
@@ -12,15 +12,15 @@
         jcr:title="Header"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
-            jcr:lastModified="{Date}2021-10-27T13:55:11.289+11:00"
+            jcr:lastModified="{Date}2022-06-15T23:20:20.946+10:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="simple">
             <container
-                jcr:created="{Date}2021-10-27T13:55:33.011+11:00"
+                jcr:created="{Date}2022-06-15T23:20:45.326+10:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-10-27T14:01:51.706+11:00"
+                jcr:lastModified="{Date}2022-06-15T23:45:46.575+10:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
@@ -28,93 +28,77 @@
                 id="header-strip"
                 layout="simple">
                 <container
-                    cq:styleIds="[1635303830163]"
-                    jcr:created="{Date}2021-10-27T14:03:25.179+11:00"
+                    cq:styleIds="[1655300664074]"
+                    jcr:created="{Date}2022-06-15T23:20:55.678+10:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-10-27T14:08:59.186+11:00"
+                    jcr:lastModified="{Date}2022-06-15T23:48:56.165+10:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="simple">
                     <text
-                        jcr:created="{Date}2021-10-27T14:04:55.335+11:00"
+                        jcr:created="{Date}2022-06-15T23:21:17.840+10:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-10-27T14:06:57.631+11:00"
+                        jcr:lastModified="{Date}2022-06-15T23:21:49.636+10:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         text="&lt;p>Free shipping from $35 &amp;amp; Free coffee samples with code frescopa.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text>
+                        textIsRich="true"/>
                     <text_copy
-                        jcr:created="{Date}2021-10-27T14:04:55.335+11:00"
+                        jcr:created="{Date}2022-06-15T23:21:17.840+10:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-10-27T14:08:45.191+11:00"
+                        jcr:lastModified="{Date}2022-06-15T23:22:29.090+10:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         id="header-right"
-                        text="&lt;p>Shop Now&lt;/p>&#xd;&#xa;"
+                        text="&lt;p>Shop now&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                 </container>
             </container>
-            <container_1686867184
-                cq:styleIds="[1635303830163]"
-                jcr:created="{Date}2021-10-27T13:57:40.007+11:00"
+            <container_1802666269
+                cq:styleIds="[1655300664074]"
+                jcr:created="{Date}2022-06-15T23:24:04.785+10:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-10-27T13:58:13.558+11:00"
+                jcr:lastModified="{Date}2022-06-15T23:48:05.691+10:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 id="main-header"
                 layout="simple">
                 <image
-                    jcr:lastModified="{Date}2021-10-27T16:07:11.467+11:00"
+                    jcr:created="{Date}2022-06-15T23:27:08.899+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-16T00:01:37.109+10:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/image/v2/image"
+                    sling:resourceType="core/wcm/components/image/v3/image"
                     alt="Frescopa Logo"
                     altValueFromDAM="false"
-                    displayPopupTitle="true"
-                    fileReference="/content/dam/frescopa-template/logos/Logo.png"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/frescopa-template/en/logo/Logo.png"
+                    imageFromPageImage="false"
                     isDecorative="false"
+                    linkTarget="_self"
                     linkURL="/content/frescopa-template/us/en"
-                    titleValueFromDAM="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="1"/>
-                    </cq:responsive>
-                </image>
+                    titleValueFromDAM="false"/>
                 <navigation
-                    jcr:lastModified="{Date}2021-10-27T14:24:10.107+11:00"
+                    jcr:created="{Date}2022-06-15T23:28:24.764+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-16T00:02:59.529+10:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/navigation/v1/navigation"
+                    sling:resourceType="core/wcm/components/navigation/v2/navigation"
                     collectAllPages="true"
                     disableShadowing="false"
                     navigationRoot="/content/frescopa-template/us/en"
-                    structureDepth="1"
-                    structureStart="1">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="5"/>
-                    </cq:responsive>
-                </navigation>
-            </container_1686867184>
+                    structureStart="1"/>
+            </container_1802666269>
             <separator
-                jcr:created="{Date}2021-10-27T14:26:32.670+11:00"
+                jcr:created="{Date}2022-06-15T23:23:48.729+10:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-10-27T14:26:47.339+11:00"
+                jcr:lastModified="{Date}2022-06-15T23:23:48.729+10:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/separator/v1/separator"/>

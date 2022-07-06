@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2c1fff82-e986-4d2f-9c25-a523d875939a">
+    <jcr:content
+        cq:name="tokyo"
+        cq:parentPath="/content/dam/frescopa-template/en/locations"
+        jcr:lastModified="{Date}2022-06-27T22:53:21.053+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Tokyo"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-27T22:53:21.053+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/location"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                city="Tokyo"
+                city_x0040_LastModified="{Date}2022-06-27T22:53:21.027+10:00"
+                lat="{Double}35.618556"
+                lat_x0040_LastModified="{Date}2022-06-27T22:53:21.028+10:00"
+                locationName="Frescopa Tokyo"
+                locationName_x0040_LastModified="{Date}2022-06-27T22:53:21.025+10:00"
+                locationPhoto_x0040_LastModified="{Date}2022-06-27T22:52:13.166+10:00"
+                long="{Double}139.7297703"
+                long_x0040_LastModified="{Date}2022-06-27T22:53:21.029+10:00"
+                phoneNumber="+81357402400"
+                phoneNumber_x0040_LastModified="{Date}2022-06-27T22:53:21.026+10:00"
+                placeholder_x0040_LastModified="{Date}2022-06-27T22:52:13.166+10:00"
+                postzipCode_x0040_LastModified="{Date}2022-06-27T22:52:13.166+10:00"
+                streetAddress="1 Chome-11-2 Osaki, Shinagawa City"
+                streetAddress_x0040_LastModified="{Date}2022-06-27T22:53:21.026+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

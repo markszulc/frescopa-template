@@ -7,7 +7,7 @@
         <wcm jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
-                    <v2 jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
                         <page jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="generic-page"
@@ -15,7 +15,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Generic Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_default>
                             <policy_contact_us
@@ -24,7 +24,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Contact Us"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_contact_us>
                             <policy_article
@@ -33,7 +33,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Article Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_article>
                             <policy_home
@@ -41,14 +41,14 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Home page"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_home>
                         </page>
-                    </v2>
+                    </v3>
                 </page>
                 <download jcr:primaryType="nt:unstructured">
-                    <v1 jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
                         <download jcr:primaryType="nt:unstructured">
                             <policy_default
                                 jcr:description="Sets the title size to H3."
@@ -63,13 +63,15 @@
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_default>
                         </download>
-                    </v1>
+                    </v2>
                 </download>
                 <teaser jcr:primaryType="nt:unstructured">
-                    <v1 jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
                                 jcr:description="Sets the title size to H3."
+                                jcr:lastModified="{Date}2022-06-19T20:55:01.281+10:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -100,6 +102,7 @@
                                     </item0>
                                     <item1
                                         cq:styleGroupLabel="Style Variation"
+                                        cq:styleGroupMultiple="true"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
@@ -107,12 +110,17 @@
                                                 cq:styleId="1612897513127"
                                                 cq:styleLabel="Dark"
                                                 jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="orangebutton"
+                                                cq:styleId="1655636079078"
+                                                cq:styleLabel="Highlight CTA"
+                                                jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item1>
                                 </cq:styleGroups>
                             </policy_default>
                         </teaser>
-                    </v1>
+                    </v2>
                 </teaser>
                 <container jcr:primaryType="nt:unstructured">
                     <v1 jcr:primaryType="nt:unstructured">
@@ -122,7 +130,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Root"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[group:Core Content]">
+                                components="[/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -131,13 +139,13 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"/>
+                                            resourceType="core/wcm/components/image/v3/image"/>
                                         <mapping_1575030843388
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"/>
                                         <mapping_1575030853128
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="media"
@@ -149,14 +157,14 @@
                             </policy_root>
                             <policy_default
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2022-01-17T08:43:42.039+11:00"
+                                jcr:lastModified="{Date}2022-06-19T20:13:14.536+10:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Content"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                allowedColorSwatches="#A03532"
+                                allowedColorSwatches="[#A03532,]"
                                 backgroundColorEnabled="true"
-                                components="[/apps/core/cif/components/commerce/product/v2/product,/apps/core/cif/components/commerce/productlist/v2/productlist,/apps/core/cif/components/commerce/relatedproducts/v1/relatedproducts,group:Core Content,group:Core Form,group:Core Structure]"
+                                components="[/apps/core/cif/components/commerce/productlist/v2/productlist,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -167,13 +175,13 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"/>
+                                            resourceType="core/wcm/components/image/v3/image"/>
                                         <mapping_1575030260142
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"/>
                                         <mapping_1575030269139
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="media"
@@ -195,59 +203,67 @@
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item1
                                                 cq:styleClasses="fixed-width"
-                                                cq:styleId="1635303830163"
+                                                cq:styleId="1655300664074"
                                                 cq:styleLabel="Fixed Width"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="flexcolummns"
+                                                cq:styleId="1655633570847"
+                                                cq:styleLabel="Flex Columns"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
-                                    <item1
-                                        cq:styleGroupLabel="Page Inner Container Styles"
-                                        jcr:primaryType="nt:unstructured">
-                                        <cq:styles jcr:primaryType="nt:unstructured">
-                                            <item0
-                                                cq:styleClasses="cmp-container--special-contents"
-                                                cq:styleId="1637217880621"
-                                                cq:styleLabel="Special contents"
-                                                jcr:primaryType="nt:unstructured"/>
-                                        </cq:styles>
-                                    </item1>
                                 </cq:styleGroups>
                             </policy_default>
                             <policy_main
                                 cq:styleDefaultClasses="Homepage Content Container"
                                 jcr:description="Sets a &lt;main> element on the page content area."
-                                jcr:lastModified="{Date}2021-12-09T17:53:07.802+11:00"
+                                jcr:lastModified="{Date}2022-06-28T22:56:55.949+10:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Main"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[/apps/core/cif/components/commerce/categorycarousel/v1/categorycarousel,/apps/core/cif/components/content/teaser/v2/teaser,/apps/core/cif/components/commerce/featuredcategorylist/v1/featuredcategorylist,/apps/core/cif/components/commerce/productcarousel/v1/productcarousel,/apps/core/cif/components/commerce/productteaser/v1/productteaser,/apps/core/cif/components/commerce/relatedproducts/v1/relatedproducts,group:Core Content,group:Core Form,group:Core Structure]"
+                                components="[group:CIF Core Components,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                                        <mapping_1639032345179
+                                        <mapping_1656420542932
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="[contentfragment/*]"
+                                            droptarget="contentfragment"
+                                            resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+                                        <mapping_1656420837669
+                                            jcr:primaryType="nt:unstructured"
+                                            assetGroup="media"
+                                            assetMimetype="image/*"
+                                            droptarget="image"
+                                            resourceType="core/wcm/components/image/v3/image"/>
+                                        <mapping_1656420981514
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
+                                            assetMimetype="experiencefragment/*"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"/>
                                     </assetToComponentMapping>
                                 </cq:authoring>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
+                                        cq:styleGroupMultiple="true"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
-                                                cq:styleClasses="homepage-content-container"
-                                                cq:styleId="1612998379971"
-                                                cq:styleLabel="Homepage Content Container"
+                                                cq:styleClasses="fixed-width"
+                                                cq:styleId="1655368791718"
+                                                cq:styleLabel="Fixed Width"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item1
-                                                cq:styleClasses="fixed-width"
-                                                cq:styleId="1635305908763"
-                                                cq:styleLabel="Fixed Width"
+                                                cq:styleClasses="homepage-content-container"
+                                                cq:styleId="1655370430754"
+                                                cq:styleLabel="Home Page Content Container"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
@@ -258,7 +274,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="XF Root"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[group:Core Content,group:Core Structure]"
+                                components="[/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -269,13 +285,13 @@
                                             assetGroup="media"
                                             assetMimetype="image/*"
                                             droptarget="image"
-                                            resourceType="core/wcm/components/image/v2/image"/>
+                                            resourceType="core/wcm/components/image/v3/image"/>
                                         <mapping_1575030843388
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="content"
                                             assetMimetype="text/html"
                                             droptarget="experiencefragment"
-                                            resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+                                            resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"/>
                                         <mapping_1575030853128
                                             jcr:primaryType="nt:unstructured"
                                             assetGroup="media"
@@ -289,7 +305,7 @@
                     </v1>
                 </container>
                 <experiencefragment jcr:primaryType="nt:unstructured">
-                    <v1 jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
                         <experiencefragment jcr:primaryType="nt:unstructured">
                             <policy_header
                                 cq:styleDefaultClasses="header"
@@ -308,10 +324,10 @@
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_footer>
                         </experiencefragment>
-                    </v1>
+                    </v2>
                 </experiencefragment>
                 <title jcr:primaryType="nt:unstructured">
-                    <v2 jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
                         <title jcr:primaryType="nt:unstructured">
                             <policy_page
                                 cq:styleDefaultClasses="h1_style"
@@ -340,6 +356,8 @@
                             <policy_default
                                 cq:styleDefaultClasses="h2_style"
                                 jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
+                                jcr:lastModified="{Date}2022-06-16T19:58:24.813+10:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Title"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -387,14 +405,12 @@
                                 </cq:styleGroups>
                             </policy_default>
                         </title>
-                    </v2>
+                    </v3>
                 </title>
                 <text jcr:primaryType="nt:unstructured">
                     <v2 jcr:primaryType="nt:unstructured">
                         <text jcr:primaryType="nt:unstructured">
                             <policy_default
-                                jcr:lastModified="{Date}2021-11-18T15:35:07.088+09:00"
-                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Text"
                                 sling:resourceType="wcm/core/components/policy/policy">
@@ -408,25 +424,13 @@
                                             override="true">
                                             <item0
                                                 jcr:primaryType="nt:unstructured"
-                                                description="h2"
-                                                tag="h2"/>
-                                            <item1
-                                                jcr:primaryType="nt:unstructured"
-                                                description="h3"
-                                                tag="h3"/>
-                                            <item2
-                                                jcr:primaryType="nt:unstructured"
-                                                description="h4"
-                                                tag="h4"/>
-                                            <item3
-                                                jcr:primaryType="nt:unstructured"
                                                 description="Paragraph"
                                                 tag="p"/>
-                                            <item4
+                                            <item1
                                                 jcr:primaryType="nt:unstructured"
                                                 description="Quote"
                                                 tag="blockquote"/>
-                                            <item5
+                                            <item2
                                                 jcr:primaryType="nt:unstructured"
                                                 description="Preformatted"
                                                 tag="pre"/>
@@ -481,13 +485,13 @@
                                         features="*"/>
                                     <justify
                                         jcr:primaryType="nt:unstructured"
-                                        features="*"/>
+                                        features="-"/>
                                     <format
                                         jcr:primaryType="nt:unstructured"
                                         features="bold,italic"/>
                                     <links
                                         jcr:primaryType="nt:unstructured"
-                                        features="-"/>
+                                        features="modifylink,unlink"/>
                                     <subsuperscript
                                         jcr:primaryType="nt:unstructured"
                                         features="-"/>
@@ -497,7 +501,7 @@
                     </v2>
                 </text>
                 <image jcr:primaryType="nt:unstructured">
-                    <v2 jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
                         <image jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="standard"
@@ -565,10 +569,10 @@
                                 </cq:styleGroups>
                             </policy_default>
                         </image>
-                    </v2>
+                    </v3>
                 </image>
                 <languagenavigation jcr:primaryType="nt:unstructured">
-                    <v1 jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
                         <languagenavigation jcr:primaryType="nt:unstructured">
                             <policy_xf
                                 jcr:primaryType="nt:unstructured"
@@ -579,7 +583,7 @@
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_xf>
                         </languagenavigation>
-                    </v1>
+                    </v2>
                 </languagenavigation>
                 <form jcr:primaryType="nt:unstructured">
                     <container jcr:primaryType="nt:unstructured">
@@ -590,7 +594,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Content Form"
                                     sling:resourceType="wcm/core/components/policy/policy"
-                                    components="[group:Core Form]">
+                                    components="[/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text]">
                                     <jcr:content jcr:primaryType="nt:unstructured"/>
                                 </policy_default>
                             </container>
@@ -629,7 +633,7 @@
                     </v1>
                 </separator>
                 <breadcrumb jcr:primaryType="nt:unstructured">
-                    <v2 jcr:primaryType="nt:unstructured">
+                    <v3 jcr:primaryType="nt:unstructured">
                         <breadcrumb jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="standard"
@@ -656,10 +660,10 @@
                                 </cq:styleGroups>
                             </policy_default>
                         </breadcrumb>
-                    </v2>
+                    </v3>
                 </breadcrumb>
                 <button jcr:primaryType="nt:unstructured">
-                    <v1 jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
                         <button jcr:primaryType="nt:unstructured">
                             <policy_default
                                 cq:styleDefaultClasses="call-to-action"
@@ -702,7 +706,7 @@
                                 </cq:styleGroups>
                             </policy_default>
                         </button>
-                    </v1>
+                    </v2>
                 </button>
                 <tabs jcr:primaryType="nt:unstructured">
                     <v1 jcr:primaryType="nt:unstructured">
@@ -735,42 +739,71 @@
                         </tabs>
                     </v1>
                 </tabs>
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <contentfragment jcr:primaryType="nt:unstructured">
+                            <policy_1655638336106
+                                jcr:lastModified="{Date}2022-06-28T22:32:58.338+10:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Fragments"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cfoffer"
+                                                cq:styleId="1655638347736"
+                                                cq:styleLabel="Offer Banner"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1655638336106>
+                        </contentfragment>
+                    </v1>
+                </contentfragment>
+                <contentfragmentlist jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <contentfragmentlist jcr:primaryType="nt:unstructured">
+                            <policy_1656332911742
+                                jcr:lastModified="{Date}2022-06-27T23:01:05.496+10:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Fragment List"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="nolabels"
+                                                cq:styleId="1656333014244"
+                                                cq:styleLabel="No Labels"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="locations"
+                                                cq:styleId="1656334847025"
+                                                cq:styleLabel="Location List"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1656332911742>
+                        </contentfragmentlist>
+                    </v2>
+                </contentfragmentlist>
             </components>
         </wcm>
         <cif jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <commerce jcr:primaryType="nt:unstructured">
-                    <product jcr:primaryType="nt:unstructured">
-                        <v2 jcr:primaryType="nt:unstructured">
-                            <product jcr:primaryType="nt:unstructured">
-                                <policy_1642287451731
-                                    jcr:lastModified="{Date}2022-01-16T09:58:13.735+11:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    jcr:title="Product Detail"
-                                    sling:resourceType="wcm/core/components/policy/policy"
-                                    loadClientPrice="false">
-                                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                                    <cq:styleGroups jcr:primaryType="nt:unstructured">
-                                        <item0 jcr:primaryType="nt:unstructured">
-                                            <cq:styles jcr:primaryType="nt:unstructured">
-                                                <item0
-                                                    cq:styleClasses="pdp-minimal"
-                                                    cq:styleId="1642287456461"
-                                                    cq:styleLabel="Compact Product Detail"
-                                                    jcr:primaryType="nt:unstructured"/>
-                                            </cq:styles>
-                                        </item0>
-                                    </cq:styleGroups>
-                                </policy_1642287451731>
-                            </product>
-                        </v2>
-                    </product>
                     <productlist jcr:primaryType="nt:unstructured">
                         <v2 jcr:primaryType="nt:unstructured">
                             <productlist jcr:primaryType="nt:unstructured">
-                                <policy_1642369435380
-                                    jcr:lastModified="{Date}2022-01-17T08:49:17.666+11:00"
+                                <policy_1655555672309
+                                    jcr:lastModified="{Date}2022-06-18T22:37:34.338+10:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Category Page"
@@ -785,18 +818,18 @@
                                             <cq:styles jcr:primaryType="nt:unstructured">
                                                 <item0
                                                     cq:styleClasses="onecolumn"
-                                                    cq:styleId="1642369456800"
+                                                    cq:styleId="1655555680974"
                                                     cq:styleLabel="Single Column"
                                                     jcr:primaryType="nt:unstructured"/>
                                                 <item1
                                                     cq:styleClasses="hidefilter"
-                                                    cq:styleId="1642369724477"
+                                                    cq:styleId="1655555682288"
                                                     cq:styleLabel="Hide Filter"
                                                     jcr:primaryType="nt:unstructured"/>
                                             </cq:styles>
                                         </item0>
                                     </cq:styleGroups>
-                                </policy_1642369435380>
+                                </policy_1655555672309>
                             </productlist>
                         </v2>
                     </productlist>
@@ -812,7 +845,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="XF page"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                        clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_default>
                 </xfpage>

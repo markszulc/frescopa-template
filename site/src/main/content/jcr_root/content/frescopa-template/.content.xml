@@ -2,20 +2,32 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/frescopa-template/settings/wcm/templates/(?!xf-).*]"
+        cq:allowedTemplates="/conf/frescopa-template/settings/wcm/templates/(?!xf-).*"
         cq:conf="/conf/frescopa-template"
+        cq:lastModified="{Date}2022-06-16T20:06:56.198+10:00"
+        cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/frescopa-template/en"
         cq:template="/conf/frescopa-template/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Frescopa"
+        jcr:title="frescopa-template"
         sling:configRef="/conf/frescopa-template"
-        sling:redirect="{Boolean}true"
+        sling:redirect="true"
         sling:redirectStatus="{Long}302"
-        sling:resourceType="core/wcm/components/page/v2/page">
+        sling:resourceType="core/wcm/components/page/v3/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaEnabled="{Boolean}true"
+        pwaIconPath="/content/dam/frescopa-template/en/logo/AppIcon-512px.png"
+        pwaOrientation="any">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-06-16T20:06:56.140+10:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
     </jcr:content>
     <us/>
-    <ja/>
 </jcr:root>

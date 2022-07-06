@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6c044f38-a1e2-452d-b6dd-ed496f63be9f">
+    <jcr:content
+        cq:name="999"
+        cq:parentPath="/content/dam/frescopa-template/en/offers"
+        jcr:lastModified="{Date}2022-06-28T22:38:03.125+10:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="999"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-06-28T22:38:03.125+10:00">
+        <data
+            cq:model="/conf/frescopa-template/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction="Grab your Free Coffee Coupon"
+                callToAction_x0040_LastModified="{Date}2022-06-16T21:10:24.861+10:00"
+                ctaUrl="#"
+                ctaUrl_x0040_LastModified="{Date}2022-06-16T21:10:24.861+10:00"
+                detail="Meet Morning Muse"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2022-06-16T21:10:24.861+10:00"
+                headline="Enjoy your first cup, on us"
+                headline_x0040_LastModified="{Date}2022-06-16T21:10:24.860+10:00"
+                heroImage="/content/dam/frescopa-template/en/stock/AdobeStock_265609585.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-06-16T21:10:24.862+10:00"
+                pretitle="Light Roast Lovers:"
+                pretitle_x0040_LastModified="{Date}2022-06-28T22:38:03.086+10:00"
+                termsConditions="/content/dam/frescopa-template/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2022-06-16T21:13:58.578+10:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
