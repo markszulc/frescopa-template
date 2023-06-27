@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
         cq:lastModified="{Date}2022-06-16T20:32:20.655+10:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-08-10T07:06:42.137Z"
+        cq:lastReplicated_publish="{Date}2022-08-10T07:06:42.137Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
         cq:scaffolding="/conf/frescopa-template/settings/dam/cfm/models/location/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
         jcr:title="Location"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        isLocked="{Boolean}false"
         status="enabled">
         <metadata jcr:primaryType="nt:unstructured"/>
         <model
@@ -109,7 +116,7 @@
                             name="locationPhoto"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/frescopa-template/en/locations"
+                            rootPath="/content/dam/frescopa/en/locations"
                             showEmptyInReadOnly="true"
                             showThumbnail="true"
                             validation="cfm.validation.contenttype.image"

@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2022-06-18T22:46:32.753+10:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2022-05-04T11:16:49.963Z"
-        cq:lastReplicated_publish="{Date}2022-05-04T11:16:49.963Z"
+        cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+        cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+        cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
         cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
         cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
         cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:template="/conf/frescopa-template/settings/wcm/templates/product-page"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:uuid="52625eec-dcea-4841-ba4c-f00deabd08d0"
+        jcr:uuid="d44cce89-2515-4506-b3d8-76243d59f90a"
         sling:resourceType="core/cif/components/structure/page/v2/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="simple">
             <experiencefragment
-                jcr:created="{Date}2021-11-14T10:53:26.404+11:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-11-14T10:53:38.659+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
@@ -36,8 +37,6 @@
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
             <experiencefragment_823150793
-                jcr:created="{Date}2021-11-14T10:54:48.358+11:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2022-06-18T22:46:32.742+10:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"

@@ -1,0 +1,17 @@
+{
+  offerByPath(_path: "/content/dam/frescopa/en/offers/999") {
+    item {
+      headline
+      pretitle
+      detail {
+        plaintext
+      }
+      heroImage {
+        ... on ImageRef {
+          _path
+        }
+      }
+      _variations
+    }
+  }
+}

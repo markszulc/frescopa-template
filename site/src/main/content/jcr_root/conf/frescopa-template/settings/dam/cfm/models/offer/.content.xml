@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
+        cq:isDelivered="{Boolean}true"
         cq:lastModified="{Date}2022-06-28T22:35:50.624+10:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-05-16T06:24:12.461Z"
+        cq:lastReplicated_preview="{Date}2022-07-07T01:26:27.771Z"
+        cq:lastReplicated_publish="{Date}2023-05-16T06:24:12.461Z"
+        cq:lastReplicated_scene7="{Date}2023-05-16T06:24:12.461Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
         cq:scaffolding="/conf/frescopa-template/settings/dam/cfm/models/offer/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
         jcr:title="Offer"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        isLocked="{Boolean}true"
         status="enabled">
-        <metadata jcr:primaryType="nt:unstructured"/>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:primaryType="nt:unstructured"/>
         <model
             cq:targetPath="/content/entities"
             jcr:primaryType="cq:PageContent"
@@ -96,7 +112,7 @@
                             name="ctaUrl"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/frescopa-template"
+                            rootPath="/content/frescopa"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
@@ -114,7 +130,7 @@
                             name="heroImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/frescopa-template/en"
+                            rootPath="/content/dam/frescopa/en"
                             showEmptyInReadOnly="true"
                             showThumbnail="true"
                             validation="cfm.validation.contenttype.image"
@@ -132,23 +148,24 @@
                             allowNew="{Boolean}true"
                             fieldLabel="Terms &amp; Conditions"
                             filter="hierarchy"
-                            fragmentmodelreference="/conf/frescopa-template/settings/dam/cfm/models/term---condition"
+                            fragmentmodelreference="/conf/frescopa/settings/dam/cfm/models/term---condition"
                             listOrder="9"
                             metaType="fragment-reference"
                             name="termsConditions"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/frescopa-template/en/terms---conditions"
+                            rootPath="/content/dam/frescopa/en/terms---conditions"
                             showEmptyInReadOnly="true"
                             valueType="string/content-fragment">
                             <field
                                 jcr:primaryType="nt:unstructured"
-                                rootPath="/content/dam/frescopa-template/en/terms---conditions"/>
+                                rootPath="/content/dam/frescopa/en/terms---conditions"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_655376392672>
                     </items>
                 </content>
             </cq:dialog>
         </model>
+        <change-register jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

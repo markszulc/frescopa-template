@@ -1,0 +1,18 @@
+{
+  locationList {
+    items {
+      locationName
+      phoneNumber
+      streetAddress
+      city
+      postzipCode
+      lat
+      long
+      locationPhoto {
+        ... on ImageRef {
+          _path
+        }
+      }
+    }
+  }
+}

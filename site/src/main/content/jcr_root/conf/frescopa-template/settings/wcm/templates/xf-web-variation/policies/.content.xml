@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-06-15T23:45:02.679+10:00"
-        cq:lastModifiedBy="admin"
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-02-26T11:01:19.179Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+        cq:lastReplicated_publish="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicated_scene7="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
         cq:policy="cq/experience-fragments/components/xfpage/policy_default"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
+        jcr:uuid="ac40f596-c0f2-4fdd-b191-382105a3d1fd"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="core/wcm/components/container/v1/container/policy_xf_root"
@@ -72,6 +88,14 @@
                                 </v2>
                             </container>
                         </form>
+                        <contentfragment jcr:primaryType="nt:unstructured">
+                            <v1 jcr:primaryType="nt:unstructured">
+                                <contentfragment
+                                    cq:policy="core/wcm/components/contentfragment/v1/contentfragment/policy_1655638336106"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </v1>
+                        </contentfragment>
                     </components>
                 </wcm>
             </core>

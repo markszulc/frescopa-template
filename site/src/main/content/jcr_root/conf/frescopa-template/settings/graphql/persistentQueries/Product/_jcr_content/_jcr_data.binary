@@ -1,0 +1,16 @@
+query productDetailsList($name:String!){
+  productDetailsList(
+    filter:{
+      productSku:{
+        _expressions:[{
+          value:$name
+          _operator:EQUALS
+        }]
+      }
+    }
+  ){
+    items{
+      friendlyName
+    }
+  }
+}

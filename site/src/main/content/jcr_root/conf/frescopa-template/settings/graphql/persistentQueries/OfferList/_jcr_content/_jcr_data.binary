@@ -1,0 +1,9 @@
+{
+  offerList {
+    items {
+      headline
+      _path
+      _variations
+    }
+  }
+}

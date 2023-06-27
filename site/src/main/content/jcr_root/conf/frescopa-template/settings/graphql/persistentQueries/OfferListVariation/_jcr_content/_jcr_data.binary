@@ -1,0 +1,13 @@
+query($variation: String!) {
+  offerList(variation: $variation, filter: {
+    _variation: {
+      _expressions: {
+        value: $variation
+      }
+    }
+  })  {
+    items {
+      headline
+    }
+  }
+}
