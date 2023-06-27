@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0b36e382-08e6-4596-af2e-3b408eb9b90b">
+    <jcr:content
+        cq:name="4400"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        dam:processingId="b1394af5-64d2-4804-8d06-b49e5ae52760"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cqdam.text.txt,cqdam.photoshop.x-creative-json,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json]"
+        dam:processingRequestedDate="{Date}2023-02-22T03:54:00.917Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:description="Promote a new blend from Wollongong"
+        jcr:lastModified="{Date}2023-02-22T03:54:00.875Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="4400"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-22T03:54:00.875Z">
+        <data
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction_x0040_LastModified="{Date}2023-02-22T03:52:22.182Z"
+                ctaUrl_x0040_LastModified="{Date}2023-02-22T03:52:22.182Z"
+                detail="A new blend"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-22T03:54:00.476Z"
+                headline="Try our latest blend."
+                headline_x0040_LastModified="{Date}2023-02-22T03:54:00.475Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_265609585.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-22T03:54:00.476Z"
+                pretitle="You will love this"
+                pretitle_x0040_LastModified="{Date}2023-02-22T03:54:00.476Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2023-02-22T03:54:00.477Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="96ec759c-d89a-4597-b10a-149765a467fc"
+                _x0040_string_x0040_model="/conf/frescopa/settings/dam/cfm/models/offer"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_detail="A new blend"
+                string_x0040_headline="Try our latest blend."
+                string_x0040_pretitle="You will love this"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xfcreated="true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

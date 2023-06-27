@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f2f43a1b-fe58-4133-96df-2086efab2e2d">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicated_publish="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicated_scene7="{Date}2023-05-07T13:10:17.933Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:name="8399"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        dam:processingId="9e309223-2e21-47f5-af52-8f768c6903a2"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.text.txt,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.colors.json,cq5dam.zoom.2048.2048.jpeg,cqdam.photoshop.x-creative-json]"
+        dam:processingRequestedDate="{Date}2023-02-02T00:21:21.301Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:description="Promotion of new blend"
+        jcr:lastModified="{Date}2023-02-23T22:43:54.492Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="8399"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-02T00:21:21.239Z">
+        <data
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction="Order a free sample now!"
+                callToAction_x0040_LastModified="{Date}2023-02-01T23:52:48.028Z"
+                ctaUrl_x0040_LastModified="{Date}2023-02-01T22:57:50.078Z"
+                detail="Our premium blend of beans is sustainably sourced and ethically made, so you can enjoy your coffee knowing it's not only delicious but also good for the environment."
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-01T23:52:48.027Z"
+                headline="Start your day off with Mountain Peak Blend"
+                headline_x0040_LastModified="{Date}2023-02-02T00:21:21.160Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_255096219.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-01T23:49:20.480Z"
+                pretitle="Good Morning!"
+                pretitle_x0040_LastModified="{Date}2023-02-01T23:51:31.988Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2023-02-01T23:49:34.504Z"/>
+            <app
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2023-02-01T23:51:04.655Z"
+                callToAction="Order a free sample now"
+                callToAction_x0040_LastModified="{Date}2023-02-01T23:51:04.679Z"
+                ctaUrl_x0040_LastModified="{Date}2023-02-01T23:51:04.679Z"
+                detail="Our premium blend of beans is sustainably sourced and ethically made, so you can enjoy your coffee knowing it's not only delicious but also good for the environment."
+                detail_x0040_LastModified="{Date}2023-02-01T23:51:04.679Z"
+                headline="Try new Mountain Peak Blend"
+                headline_x0040_LastModified="{Date}2023-02-02T00:17:26.305Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_255096219.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-01T23:51:04.679Z"
+                pretitle="Good Morning!"
+                pretitle_x0040_LastModified="{Date}2023-02-01T23:51:48.676Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2023-02-23T22:43:54.492Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="64da1f4f-1afb-4190-8416-33453b5c6753"
+                _x0040_string_x0040_model="/conf/frescopa/settings/dam/cfm/models/offer"
+                _x0040_stringArray_x0040_variations="[app]"
+                string_x0040_callToAction="Order a free sample now!"
+                string_x0040_detail="Our premium blend of beans is sustainably sourced and ethically made, so you can enjoy your coffee knowing it's not only delicious but also good for the environment."
+                string_x0040_headline="Start your day off with Mountain Peak Blend"
+                string_x0040_pretitle="Good Morning!"/>
+            <app
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1e587b89-355a-491e-8571-aeefaf2c02ba"
+                _x0040_string_x0040_model="/conf/frescopa/settings/dam/cfm/models/offer"
+                string_x0040_callToAction="Order a free sample now"
+                string_x0040_detail="Our premium blend of beans is sustainably sourced and ethically made, so you can enjoy your coffee knowing it's not only delicious but also good for the environment."
+                string_x0040_headline="Try new Mountain Peak Blend"
+                string_x0040_pretitle="Good Morning!"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xfcreated="true"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <app
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="App"
+                    name="app">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:015cc832-9a88-495b-be65-a2d79f938831,pretitle:015cc832-9a88-495b-be65-a2d79f938831,detail:015cc832-9a88-495b-be65-a2d79f938831,callToAction:015cc832-9a88-495b-be65-a2d79f938831,ctaUrl:015cc832-9a88-495b-be65-a2d79f938831,heroImage:015cc832-9a88-495b-be65-a2d79f938831,termsConditions:015cc832-9a88-495b-be65-a2d79f938831]"/>
+                </app>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

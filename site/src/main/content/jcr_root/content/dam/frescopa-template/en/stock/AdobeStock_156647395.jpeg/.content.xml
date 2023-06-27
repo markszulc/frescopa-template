@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:ns4="http://ns.adobe.com/camera-raw-defaults/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:ns4="http://ns.adobe.com/camera-raw-defaults/1.0/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="2cb24c53-126d-47dd-9147-4f9685c24a84">
+    jcr:uuid="6d6cc03a-43cf-4b03-84b5-3f3dd4500e2c">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-16T21:09:43.792+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:54.410+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             crs:AlreadyApplied="True"
@@ -131,7 +131,7 @@
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20170508"
-            dam:extracted="{Date}2022-06-16T21:09:42.318+10:00"
+            dam:extracted="{Date}2023-06-27T21:28:50.479+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -212,22 +212,29 @@
             psAux:LensID="{Long}163"
             psAux:LensInfo="16/1 35/1 4/1 4/1"
             psAux:SerialNumber="8025828"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}4245"
             tiff:ImageWidth="{Long}6360"
             tiff:Make="NIKON CORPORATION"
             tiff:Model="NIKON D810"
             tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
             tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
             tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreateDate="{Date}2017-05-08T00:00:00.000+10:00"
             xmp:CreatorTool="Adobe Photoshop CS5 Windows"
             xmp:MetadataDate="{Date}2017-05-26T19:00:02.000+03:00"
-            xmp:ModifyDate="{Date}2017-05-26T19:00:02.000+10:00"
             xmpMM:DocumentID="xmp.did:3ad40fc7-6dad-9947-ab3c-d20dd93bf2ec"
             xmpMM:InstanceID="xmp.iid:A4EC6B552C42E711ABD1ECF67664E1BB"
-            xmpMM:OriginalDocumentID="5FE32F468AA7CEFC5A5B379FD1BEA976">
+            xmpMM:OriginalDocumentID="5FE32F468AA7CEFC5A5B379FD1BEA976"
+            xmp:ModifyDate="{Date}2017-05-26T19:00:02.000+10:00">
             <exif:CFAPattern
                 exif:Columns="{Long}2"
                 exif:Rows="{Long}2"
@@ -235,178 +242,6 @@
                 exif:Values_xmpArrayType="rdf:Seq"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:GradientBasedCorrections
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity2012="{Decimal}0.000000"
-                    crs:LocalContrast2012="{Decimal}0.000000"
-                    crs:LocalDefringe="{Decimal}0.000000"
-                    crs:LocalExposure2012="{Decimal}0.000000"
-                    crs:LocalHighlights2012="{Decimal}0.000000"
-                    crs:LocalLuminanceNoise="{Decimal}0.000000"
-                    crs:LocalMoire="{Decimal}0.000000"
-                    crs:LocalSaturation="{Decimal}0.000000"
-                    crs:LocalShadows2012="{Decimal}0.318180"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalTemperature="{Decimal}0.000000"
-                    crs:LocalTint="{Decimal}0.000000"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:FullX="{Decimal}0.354291"
-                            crs:FullY="{Decimal}0.886398"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:What="Mask/Gradient"
-                            crs:ZeroX="{Decimal}0.643713"
-                            crs:ZeroY="{Decimal}0.606876"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0031_>
-                <_x0032_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity2012="{Decimal}0.000000"
-                    crs:LocalContrast2012="{Decimal}0.000000"
-                    crs:LocalDefringe="{Decimal}0.000000"
-                    crs:LocalExposure2012="{Decimal}0.068250"
-                    crs:LocalHighlights2012="{Decimal}0.000000"
-                    crs:LocalLuminanceNoise="{Decimal}0.000000"
-                    crs:LocalMoire="{Decimal}0.000000"
-                    crs:LocalSaturation="{Decimal}0.000000"
-                    crs:LocalShadows2012="{Decimal}0.000000"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalTemperature="{Decimal}0.000000"
-                    crs:LocalTint="{Decimal}0.000000"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:FullX="{Decimal}0.201597"
-                            crs:FullY="{Decimal}0.692078"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:What="Mask/Gradient"
-                            crs:ZeroX="{Decimal}0.550898"
-                            crs:ZeroY="{Decimal}0.563528"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0032_>
-            </crs:GradientBasedCorrections>
-            <crs:PaintBasedCorrections
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity2012="{Decimal}0.000000"
-                    crs:LocalContrast2012="{Decimal}0.000000"
-                    crs:LocalDefringe="{Decimal}0.000000"
-                    crs:LocalExposure2012="{Decimal}0.000000"
-                    crs:LocalHighlights2012="{Decimal}-0.181820"
-                    crs:LocalLuminanceNoise="{Decimal}0.000000"
-                    crs:LocalMoire="{Decimal}0.000000"
-                    crs:LocalSaturation="{Decimal}0.000000"
-                    crs:LocalShadows2012="{Decimal}0.000000"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalTemperature="{Decimal}0.000000"
-                    crs:LocalTint="{Decimal}0.000000"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.202922"
-                            crs:Dabs="[d 0.808383 0.539611,d 0.796874 0.538256,d 0.785364 0.536900,d 0.773855 0.535544,d 0.762345 0.534188,d 0.750836 0.532832,d 0.739327 0.531476,d 0.727817 0.530121,d 0.716308 0.528765,d 0.704798 0.527409,d 0.693289 0.526053,d 0.681779 0.524697,d 0.670270 0.523341,d 0.658761 0.521986,d 0.647251 0.520630,d 0.635742 0.519274]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.038483"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0031_>
-                <_x0032_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity2012="{Decimal}0.000000"
-                    crs:LocalContrast2012="{Decimal}0.000000"
-                    crs:LocalDefringe="{Decimal}0.000000"
-                    crs:LocalExposure2012="{Decimal}0.000000"
-                    crs:LocalHighlights2012="{Decimal}0.000000"
-                    crs:LocalLuminanceNoise="{Decimal}0.000000"
-                    crs:LocalMoire="{Decimal}0.000000"
-                    crs:LocalSaturation="{Decimal}0.000000"
-                    crs:LocalShadows2012="{Decimal}0.000000"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalTemperature="{Decimal}-0.090910"
-                    crs:LocalTint="{Decimal}0.090910"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}2"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.202922"
-                            crs:Dabs="[d 0.534930 0.825112,d 0.546386 0.827257,d 0.557842 0.829402,d 0.569298 0.831546,d 0.580754 0.833691,d 0.592154 0.836407,d 0.603580 0.838565,d 0.614925 0.841592,d 0.626321 0.844360,d 0.637718 0.847128,d 0.649114 0.849896,d 0.660566 0.851780,d 0.671963 0.854501,d 0.683300 0.857770,d 0.694741 0.859492,d 0.706236 0.860401,d 0.717635 0.863137,d 0.729042 0.865720,d 0.740452 0.866966,d 0.751988 0.867276,d 0.763491 0.868762,d 0.774927 0.870995,d 0.786342 0.873567,d 0.797744 0.876268,d 0.809219 0.877658,d 0.820726 0.879037,d 0.832254 0.879997,d 0.843747 0.881550,d 0.855208 0.883619,d 0.866619 0.886249,d 0.878080 0.888031,d 0.889555 0.889941,d 0.901065 0.890882,d 0.912578 0.891839,d 0.924066 0.893560,d 0.935538 0.895366,d 0.947003 0.897053,d 0.958432 0.899498,d 0.969890 0.901345,d 0.981393 0.902346,d 0.992425 0.906442,d 0.998624 0.919488,d 0.990064 0.926756,d 0.978519 0.926756,d 0.967007 0.925661,d 0.955624 0.922862,d 0.944281 0.919640,d 0.932939 0.916418,d 0.921596 0.913196,d 0.910253 0.909974,d 0.898825 0.907594,d 0.887349 0.905711,d 0.875846 0.904335,d 0.864314 0.903685,d 0.852797 0.902501,d 0.841287 0.901345,d 0.829795 0.899843,d 0.818309 0.898100,d 0.806799 0.896861,d 0.795325 0.895348,d 0.783896 0.892903,d 0.772406 0.891744,d 0.760970 0.889365,d 0.749535 0.886986,d 0.738097 0.884636,d 0.726641 0.882492,d 0.715405 0.878659,d 0.704143 0.874984,d 0.692701 0.872725,d 0.681190 0.871389,d 0.669691 0.869846,d 0.658179 0.868553,d 0.646666 0.867260,d 0.635153 0.865967,d 0.623676 0.864149,d 0.612282 0.861362,d 0.600927 0.859329,d 0.589522 0.856712,d 0.578137 0.855153,d 0.566732 0.853008,d 0.555341 0.850523,d 0.543796 0.850523,d 0.534930 0.861002,d 0.536659 0.877953,d 0.543066 0.891317,d 0.552600 0.900880,d 0.561731 0.908891,d 0.550364 0.909369,d 0.538850 0.908091,d 0.527324 0.907324,d 0.517512 0.903304,d 0.527554 0.911840,d 0.537595 0.920376,d 0.547637 0.928912,d 0.557893 0.936798,d 0.565383 0.941704,d 0.554070 0.939218,d 0.542889 0.934918,d 0.531733 0.930462,d 0.520748 0.925156,d 0.509795 0.919688,d 0.498491 0.916293,d 0.487225 0.913303,d 0.476184 0.908921,d 0.465347 0.903556,d 0.454536 0.897484,d 0.443906 0.890805,d 0.432905 0.885731,d 0.421981 0.880549,d 0.427920 0.890146,d 0.437342 0.900142,d 0.447019 0.909501,d 0.457346 0.917235]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.038483"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                        <_x0032_
-                            crs:CenterWeight="{Decimal}0.202922"
-                            crs:Dabs="[d 0.120758 0.769806,d 0.109214 0.769806,d 0.097669 0.769806,d 0.086141 0.768994,d 0.074733 0.766803,d 0.063222 0.765476,d 0.051951 0.761861,d 0.040608 0.759110,d 0.029748 0.753466,d 0.018443 0.750374,d 0.007086 0.747795]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.038483"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0032_>
-            </crs:PaintBasedCorrections>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="5FE32F468AA7CEFC5A5B379FD1BEA976"
@@ -584,6 +419,186 @@
                     </crs:CorrectionMasks>
                 </_x0032_>
             </ns4:PaintBasedCorrections>
+            <exif:Flash
+                exif:Fired="{Boolean}false"
+                exif:Function="{Boolean}false"
+                exif:Mode="{Long}2"
+                exif:RedEyeMode="{Boolean}false"
+                exif:Return="{Long}0"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <crs:GradientBasedCorrections
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity2012="{Decimal}0.000000"
+                    crs:LocalContrast2012="{Decimal}0.000000"
+                    crs:LocalDefringe="{Decimal}0.000000"
+                    crs:LocalExposure2012="{Decimal}0.000000"
+                    crs:LocalHighlights2012="{Decimal}0.000000"
+                    crs:LocalLuminanceNoise="{Decimal}0.000000"
+                    crs:LocalMoire="{Decimal}0.000000"
+                    crs:LocalSaturation="{Decimal}0.000000"
+                    crs:LocalShadows2012="{Decimal}0.318180"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalTemperature="{Decimal}0.000000"
+                    crs:LocalTint="{Decimal}0.000000"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:FullX="{Decimal}0.354291"
+                            crs:FullY="{Decimal}0.886398"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:What="Mask/Gradient"
+                            crs:ZeroX="{Decimal}0.643713"
+                            crs:ZeroY="{Decimal}0.606876"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0031_>
+                <_x0032_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity2012="{Decimal}0.000000"
+                    crs:LocalContrast2012="{Decimal}0.000000"
+                    crs:LocalDefringe="{Decimal}0.000000"
+                    crs:LocalExposure2012="{Decimal}0.068250"
+                    crs:LocalHighlights2012="{Decimal}0.000000"
+                    crs:LocalLuminanceNoise="{Decimal}0.000000"
+                    crs:LocalMoire="{Decimal}0.000000"
+                    crs:LocalSaturation="{Decimal}0.000000"
+                    crs:LocalShadows2012="{Decimal}0.000000"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalTemperature="{Decimal}0.000000"
+                    crs:LocalTint="{Decimal}0.000000"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:FullX="{Decimal}0.201597"
+                            crs:FullY="{Decimal}0.692078"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:What="Mask/Gradient"
+                            crs:ZeroX="{Decimal}0.550898"
+                            crs:ZeroY="{Decimal}0.563528"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0032_>
+            </crs:GradientBasedCorrections>
+            <crs:PaintBasedCorrections
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity2012="{Decimal}0.000000"
+                    crs:LocalContrast2012="{Decimal}0.000000"
+                    crs:LocalDefringe="{Decimal}0.000000"
+                    crs:LocalExposure2012="{Decimal}0.000000"
+                    crs:LocalHighlights2012="{Decimal}-0.181820"
+                    crs:LocalLuminanceNoise="{Decimal}0.000000"
+                    crs:LocalMoire="{Decimal}0.000000"
+                    crs:LocalSaturation="{Decimal}0.000000"
+                    crs:LocalShadows2012="{Decimal}0.000000"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalTemperature="{Decimal}0.000000"
+                    crs:LocalTint="{Decimal}0.000000"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.202922"
+                            crs:Dabs="[d 0.808383 0.539611,d 0.796874 0.538256,d 0.785364 0.536900,d 0.773855 0.535544,d 0.762345 0.534188,d 0.750836 0.532832,d 0.739327 0.531476,d 0.727817 0.530121,d 0.716308 0.528765,d 0.704798 0.527409,d 0.693289 0.526053,d 0.681779 0.524697,d 0.670270 0.523341,d 0.658761 0.521986,d 0.647251 0.520630,d 0.635742 0.519274]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.038483"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0031_>
+                <_x0032_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity2012="{Decimal}0.000000"
+                    crs:LocalContrast2012="{Decimal}0.000000"
+                    crs:LocalDefringe="{Decimal}0.000000"
+                    crs:LocalExposure2012="{Decimal}0.000000"
+                    crs:LocalHighlights2012="{Decimal}0.000000"
+                    crs:LocalLuminanceNoise="{Decimal}0.000000"
+                    crs:LocalMoire="{Decimal}0.000000"
+                    crs:LocalSaturation="{Decimal}0.000000"
+                    crs:LocalShadows2012="{Decimal}0.000000"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalTemperature="{Decimal}-0.090910"
+                    crs:LocalTint="{Decimal}0.090910"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}2"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.202922"
+                            crs:Dabs="[d 0.534930 0.825112,d 0.546386 0.827257,d 0.557842 0.829402,d 0.569298 0.831546,d 0.580754 0.833691,d 0.592154 0.836407,d 0.603580 0.838565,d 0.614925 0.841592,d 0.626321 0.844360,d 0.637718 0.847128,d 0.649114 0.849896,d 0.660566 0.851780,d 0.671963 0.854501,d 0.683300 0.857770,d 0.694741 0.859492,d 0.706236 0.860401,d 0.717635 0.863137,d 0.729042 0.865720,d 0.740452 0.866966,d 0.751988 0.867276,d 0.763491 0.868762,d 0.774927 0.870995,d 0.786342 0.873567,d 0.797744 0.876268,d 0.809219 0.877658,d 0.820726 0.879037,d 0.832254 0.879997,d 0.843747 0.881550,d 0.855208 0.883619,d 0.866619 0.886249,d 0.878080 0.888031,d 0.889555 0.889941,d 0.901065 0.890882,d 0.912578 0.891839,d 0.924066 0.893560,d 0.935538 0.895366,d 0.947003 0.897053,d 0.958432 0.899498,d 0.969890 0.901345,d 0.981393 0.902346,d 0.992425 0.906442,d 0.998624 0.919488,d 0.990064 0.926756,d 0.978519 0.926756,d 0.967007 0.925661,d 0.955624 0.922862,d 0.944281 0.919640,d 0.932939 0.916418,d 0.921596 0.913196,d 0.910253 0.909974,d 0.898825 0.907594,d 0.887349 0.905711,d 0.875846 0.904335,d 0.864314 0.903685,d 0.852797 0.902501,d 0.841287 0.901345,d 0.829795 0.899843,d 0.818309 0.898100,d 0.806799 0.896861,d 0.795325 0.895348,d 0.783896 0.892903,d 0.772406 0.891744,d 0.760970 0.889365,d 0.749535 0.886986,d 0.738097 0.884636,d 0.726641 0.882492,d 0.715405 0.878659,d 0.704143 0.874984,d 0.692701 0.872725,d 0.681190 0.871389,d 0.669691 0.869846,d 0.658179 0.868553,d 0.646666 0.867260,d 0.635153 0.865967,d 0.623676 0.864149,d 0.612282 0.861362,d 0.600927 0.859329,d 0.589522 0.856712,d 0.578137 0.855153,d 0.566732 0.853008,d 0.555341 0.850523,d 0.543796 0.850523,d 0.534930 0.861002,d 0.536659 0.877953,d 0.543066 0.891317,d 0.552600 0.900880,d 0.561731 0.908891,d 0.550364 0.909369,d 0.538850 0.908091,d 0.527324 0.907324,d 0.517512 0.903304,d 0.527554 0.911840,d 0.537595 0.920376,d 0.547637 0.928912,d 0.557893 0.936798,d 0.565383 0.941704,d 0.554070 0.939218,d 0.542889 0.934918,d 0.531733 0.930462,d 0.520748 0.925156,d 0.509795 0.919688,d 0.498491 0.916293,d 0.487225 0.913303,d 0.476184 0.908921,d 0.465347 0.903556,d 0.454536 0.897484,d 0.443906 0.890805,d 0.432905 0.885731,d 0.421981 0.880549,d 0.427920 0.890146,d 0.437342 0.900142,d 0.447019 0.909501,d 0.457346 0.917235]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.038483"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                        <_x0032_
+                            crs:CenterWeight="{Decimal}0.202922"
+                            crs:Dabs="[d 0.120758 0.769806,d 0.109214 0.769806,d 0.097669 0.769806,d 0.086141 0.768994,d 0.074733 0.766803,d 0.063222 0.765476,d 0.051951 0.761861,d 0.040608 0.759110,d 0.029748 0.753466,d 0.018443 0.750374,d 0.007086 0.747795]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.038483"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0032_>
+            </crs:PaintBasedCorrections>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

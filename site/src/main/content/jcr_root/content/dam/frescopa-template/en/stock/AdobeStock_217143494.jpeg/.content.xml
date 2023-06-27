@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="096c4a91-18f9-4a3d-8f2d-3a3822bd0ae5">
+    jcr:uuid="c10e1226-892f-4afd-8d7d-598312c5eb83">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-16T21:09:37.214+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:49.340+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2022-06-16T21:09:34.610+10:00"
+            dam:extracted="{Date}2023-06-27T21:28:45.358+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -46,12 +46,17 @@
             photoshop:Source="217143494"
             prismusagerights:creditLine="[yurakrasil - stock.adobe.com]"
             prismusagerights:creditLine_xmpArrayType="rdf:Bag"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}3055"
             tiff:ImageWidth="{Long}4582"
             tiff:Orientation="{Long}1"
             tiff:ResolutionUnit="{Long}2"
             tiff:XResolution="300/1"
             tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreatorTool="Adobe Photoshop CC 2018 (Windows)"
             xmp:ModifyDate="{Date}2018-08-04T23:03:33.000+10:00"/>

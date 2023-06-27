@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="6c044f38-a1e2-452d-b6dd-ed496f63be9f">
+    jcr:uuid="b1a2c67f-850c-493f-918b-eb3fe8074ae6">
     <jcr:content
+        cq:lastReplicated="{Date}2023-02-01T06:17:35.201Z"
+        cq:lastReplicated_preview="{Date}2022-07-07T01:25:57.332Z"
+        cq:lastReplicated_publish="{Date}2023-02-01T06:17:35.201Z"
+        cq:lastReplicated_scene7="{Date}2023-02-01T06:17:35.201Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
         cq:name="999"
-        cq:parentPath="/content/dam/frescopa-template/en/offers"
-        jcr:lastModified="{Date}2022-06-28T22:38:03.125+10:00"
-        jcr:lastModifiedBy="admin"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        dam:processingId="dc9e1752-65b9-4c10-9d99-e11cc6714e49"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cq5dam.preview.pdf,cq5dam.thumbnail.48.48.png,cqdam.photoshop.x-creative-json,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json,cqdam.text.txt]"
+        dam:processingRequestedDate="{Date}2023-02-01T06:17:29.883Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:description="Free first cup offer"
+        jcr:lastModified="{Date}2023-02-01T06:17:29.861Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="999"
+        app_targetOfferID="{Long}1159338"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-06-28T22:38:03.125+10:00">
+        lastFragmentSave="{Date}2023-02-01T06:17:29.861Z"
+        loyalty_members_targetOfferID="{Long}1159336"
+        subscribers_targetOfferID="{Long}1159337"
+        targetOfferID="{Long}1159335"
+        targetSyncTimestamp="{Date}2023-05-17T01:19:50.337Z">
         <data
-            cq:model="/conf/frescopa-template/settings/dam/cfm/models/offer"
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
@@ -28,16 +52,116 @@
                 detail_x0040_LastModified="{Date}2022-06-16T21:10:24.861+10:00"
                 headline="Enjoy your first cup, on us"
                 headline_x0040_LastModified="{Date}2022-06-16T21:10:24.860+10:00"
-                heroImage="/content/dam/frescopa-template/en/stock/AdobeStock_265609585.jpeg"
-                heroImage_x0040_LastModified="{Date}2022-06-16T21:10:24.862+10:00"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_255096219.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-08-10T06:23:17.895Z"
                 pretitle="Light Roast Lovers:"
                 pretitle_x0040_LastModified="{Date}2022-06-28T22:38:03.086+10:00"
-                termsConditions="/content/dam/frescopa-template/en/terms---conditions/free-coffee"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
                 termsConditions_x0040_LastModified="{Date}2022-06-16T21:13:58.578+10:00"/>
+            <loyalty_members
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-10-17T02:01:30.205Z"
+                callToAction="Grab your Free Coffee Coupon"
+                callToAction_x0040_LastModified="{Date}2022-10-17T02:01:30.252Z"
+                ctaUrl="#"
+                ctaUrl_x0040_LastModified="{Date}2022-10-17T02:01:30.253Z"
+                detail="Meet Morning Muse"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2022-10-17T02:01:30.251Z"
+                headline="Enjoy another cup, on us"
+                headline_x0040_LastModified="{Date}2022-10-17T02:02:09.716Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_255096219.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-10-17T02:01:30.254Z"
+                pretitle="Light Roast Lovers:"
+                pretitle_x0040_LastModified="{Date}2022-10-17T02:01:30.250Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2022-10-17T02:01:30.255Z"/>
+            <subscribers
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-10-17T02:02:15.419Z"
+                callToAction="Order Now"
+                callToAction_x0040_LastModified="{Date}2022-10-17T02:02:49.289Z"
+                ctaUrl="#"
+                ctaUrl_x0040_LastModified="{Date}2022-10-17T02:02:15.422Z"
+                detail="Meet Morning Muse"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2022-10-17T02:02:15.421Z"
+                headline="Enjoy our latest blend"
+                headline_x0040_LastModified="{Date}2022-10-17T02:02:49.288Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_217143494.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-10-17T02:06:29.110Z"
+                pretitle="Light Roast Lovers:"
+                pretitle_x0040_LastModified="{Date}2022-10-17T02:02:15.420Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2022-10-17T02:02:15.423Z"/>
+            <app
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2023-02-01T06:17:14.390Z"
+                callToAction="Grab your Free Coffee Coupon"
+                callToAction_x0040_LastModified="{Date}2023-02-01T06:17:14.415Z"
+                ctaUrl="#"
+                ctaUrl_x0040_LastModified="{Date}2023-02-01T06:17:14.415Z"
+                detail="Meet Morning Muse"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-01T06:17:14.415Z"
+                headline="Enjoy your first cup, on us"
+                headline_x0040_LastModified="{Date}2023-02-01T06:17:14.402Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_255096219.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-01T06:17:14.416Z"
+                pretitle="Light Roast Lovers:"
+                pretitle_x0040_LastModified="{Date}2023-02-01T06:17:14.415Z"
+                termsConditions="/content/dam/frescopa/en/terms---conditions/free-coffee"
+                termsConditions_x0040_LastModified="{Date}2023-02-01T06:17:14.416Z"/>
         </data>
         <metadata
+            cq:tags="[]"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"/>
+            jcr:primaryType="nt:unstructured"
+            xfcreated="true">
+            <dam:cfVariations jcr:primaryType="nt:unstructured">
+                <app
+                    cq:tags="[]"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"/>
+            </dam:cfVariations>
+        </metadata>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <loyalty_members
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Loyalty Members"
+                    name="loyalty_members">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:69529e08-2f65-45d7-affd-afc02ebe5d0b,pretitle:69529e08-2f65-45d7-affd-afc02ebe5d0b,detail:69529e08-2f65-45d7-affd-afc02ebe5d0b,callToAction:69529e08-2f65-45d7-affd-afc02ebe5d0b,ctaUrl:69529e08-2f65-45d7-affd-afc02ebe5d0b,heroImage:69529e08-2f65-45d7-affd-afc02ebe5d0b,termsConditions:69529e08-2f65-45d7-affd-afc02ebe5d0b]"/>
+                </loyalty_members>
+                <subscribers
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Subscribers"
+                    name="subscribers">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:ded34561-b172-4301-974c-40ffdfc4ec73,pretitle:ded34561-b172-4301-974c-40ffdfc4ec73,detail:ded34561-b172-4301-974c-40ffdfc4ec73,callToAction:ded34561-b172-4301-974c-40ffdfc4ec73,ctaUrl:ded34561-b172-4301-974c-40ffdfc4ec73,heroImage:ded34561-b172-4301-974c-40ffdfc4ec73,termsConditions:ded34561-b172-4301-974c-40ffdfc4ec73]"/>
+                </subscribers>
+                <app
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="App"
+                    name="app">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:d8e832ae-6873-4dee-9ac1-7dc7a343106f,pretitle:d8e832ae-6873-4dee-9ac1-7dc7a343106f,detail:d8e832ae-6873-4dee-9ac1-7dc7a343106f,callToAction:d8e832ae-6873-4dee-9ac1-7dc7a343106f,ctaUrl:d8e832ae-6873-4dee-9ac1-7dc7a343106f,heroImage:d8e832ae-6873-4dee-9ac1-7dc7a343106f,termsConditions:d8e832ae-6873-4dee-9ac1-7dc7a343106f]"/>
+                </app>
+            </variations>
+        </model>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

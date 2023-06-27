@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1bfcd59e-3912-4f3e-9ecb-cdb3690315c6">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-02-01T06:33:26.545Z"
+        cq:lastReplicated_publish="{Date}2023-02-01T06:33:26.545Z"
+        cq:lastReplicated_scene7="{Date}2023-02-01T06:33:26.545Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:name="5215"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        dam:processingId="d5d12a10-b718-487d-a0ee-1339c8cc02fe"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.colors.json,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.48.48.png,cqdam.photoshop.x-creative-json]"
+        dam:processingRequestedDate="{Date}2023-02-01T06:33:21.959Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:description="Promote a new Coffee Machine"
+        jcr:lastModified="{Date}2023-02-01T06:33:21.898Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="5215"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-01T06:33:21.898Z">
+        <data
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction="Try it now"
+                callToAction_x0040_LastModified="{Date}2022-11-15T00:48:10.113Z"
+                ctaUrl_x0040_LastModified="{Date}2022-11-15T00:46:56.576Z"
+                detail="Check out this new tech to make your dream brew"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2022-11-15T00:48:10.113Z"
+                headline="Inviting our new customers to trial our latest coffee maker."
+                headline_x0040_LastModified="{Date}2022-11-15T00:48:10.112Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_265609585.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-11-17T05:11:31.269Z"
+                pretitle="HEY!"
+                pretitle_x0040_LastModified="{Date}2022-11-15T00:48:10.112Z"
+                termsConditions_x0040_LastModified="{Date}2022-11-15T00:46:56.576Z"/>
+            <app
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2023-02-01T04:10:20.895Z"
+                callToAction="Try it now"
+                callToAction_x0040_LastModified="{Date}2023-02-01T04:10:20.914Z"
+                ctaUrl_x0040_LastModified="{Date}2023-02-01T04:10:20.914Z"
+                detail="Check out this new tech to make your dream brew"
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-01T04:10:20.914Z"
+                headline="Want to trial our new coffee maker?"
+                headline_x0040_LastModified="{Date}2023-02-01T06:33:21.830Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_265609585.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-01T04:10:20.915Z"
+                pretitle="HEY!"
+                pretitle_x0040_LastModified="{Date}2023-02-01T04:10:20.913Z"
+                termsConditions_x0040_LastModified="{Date}2023-02-01T04:10:20.915Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xfcreated="true"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <app
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="App"
+                    name="app">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,pretitle:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,detail:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,callToAction:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,ctaUrl:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,heroImage:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7,termsConditions:9808cdf8-d474-4ebb-b5dd-b0aa6554e1b7]"/>
+                </app>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

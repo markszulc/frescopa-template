@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:ns4="http://ns.adobe.com/camera-raw-defaults/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2_1_="http://purl.org/dc/terms/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:ns2_1_="http://purl.org/dc/terms/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:ns4="http://ns.adobe.com/camera-raw-defaults/1.0/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="3625dfe5-a043-4a8b-bb4c-3d362f906ca2">
+    jcr:uuid="c339abcb-5608-4fc6-a996-9d8eb9742954">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-27T22:23:32.052+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:46.182+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             crs:AlreadyApplied="True"
@@ -129,7 +129,7 @@
             crs:VignetteAmount="{Long}0"
             crs:Whites2012="{Long}-45"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2022-06-27T22:23:21.310+10:00"
+            dam:extracted="{Date}2023-06-27T21:28:43.359+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -187,6 +187,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="customer self service order drink menu with tablet screen at caf"
+            ns2_1_:provenance="self#jumbf=c2pa/adobe:urn:uuid:8230a16b-b122-4c7a-a666-6898ee57f326/c2pa.claim"
             ns2:LensMake="FUJIFILM"
             ns2:LensModel="XF56mmF1.2 R"
             ns2:LensSerialNumber="76A13040"
@@ -194,7 +195,6 @@
             ns2:LensSpecification_xmpArrayType="rdf:Seq"
             ns2:PhotographicSensitivity="{Long}200"
             ns2:SensitivityType="{Long}1"
-            ns2_1_:provenance="self#jumbf=c2pa/adobe:urn:uuid:8230a16b-b122-4c7a-a666-6898ee57f326/c2pa.claim"
             photoshop:ColorMode="{Long}3"
             photoshop:Country="Thailand"
             photoshop:Credit="weedezign - stock.adobe.com"
@@ -221,11 +221,11 @@
             xmp:CreatorTool="Adobe Photoshop CC 2018 (Macintosh)"
             xmp:Label="barista"
             xmp:MetadataDate="{Date}2018-05-24T21:46:34.000+07:00"
-            xmp:ModifyDate="{Date}2018-05-24T21:46:34.000+10:00"
-            xmp:Rating="{Decimal}2"
             xmpMM:DocumentID="adobe:docid:photoshop:336b6c2f-3031-9d4d-bfb8-2a2540e71aab"
             xmpMM:InstanceID="xmp.iid:4724cb41-d639-4b2c-8d71-099cc942648b"
-            xmpMM:OriginalDocumentID="C83E426A7B268A04598C693201AD7C46">
+            xmpMM:OriginalDocumentID="C83E426A7B268A04598C693201AD7C46"
+            xmp:ModifyDate="{Date}2018-05-24T21:46:34.000+10:00"
+            xmp:Rating="{Decimal}2">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="C83E426A7B268A04598C693201AD7C46"

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="37c6e8ea-5eb8-416d-82fe-258f7805772b">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-02-01T08:01:29.169Z"
+        cq:lastReplicated_publish="{Date}2023-02-01T08:01:29.169Z"
+        cq:lastReplicated_scene7="{Date}2023-02-01T05:33:40.211Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:name="5319"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        dam:processingId="408fcb2f-f148-4743-9645-cd1568ff15fc"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cqdam.text.txt,cqdam.photoshop.x-creative-json,cq5dam.preview.pdf,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg]"
+        dam:processingRequestedDate="{Date}2023-02-01T05:34:00.861Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:description="Product Launch of a new coffee blend"
+        jcr:lastModified="{Date}2023-02-01T08:01:13.559Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="5319"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-02-01T05:34:00.833Z">
+        <data
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction="Order Now"
+                callToAction_x0040_LastModified="{Date}2022-11-15T05:13:38.509Z"
+                ctaUrl_x0040_LastModified="{Date}2022-11-15T05:12:33.579Z"
+                detail="Our carefully crafted blend of premium beans will give you a rich, smooth and satisfying taste that will make your morning."
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-01T05:33:22.457Z"
+                headline="Tired of bland and tasteless coffee?"
+                headline_x0040_LastModified="{Date}2023-02-01T05:33:22.456Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_301817842.jpeg"
+                heroImage_x0040_LastModified="{Date}2022-11-15T05:13:38.510Z"
+                pretitle_x0040_LastModified="{Date}2023-02-01T05:33:22.456Z"
+                termsConditions_x0040_LastModified="{Date}2022-11-15T05:12:33.579Z"/>
+            <app
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2023-02-01T05:10:25.231Z"
+                callToAction="Order Now"
+                callToAction_x0040_LastModified="{Date}2023-02-01T05:10:25.244Z"
+                ctaUrl_x0040_LastModified="{Date}2023-02-01T05:10:25.244Z"
+                detail="Our carefully crafted blend of premium beans will give you a rich, smooth and satisfying taste that will make your morning."
+                detail_x0040_ContentType="text/plain"
+                detail_x0040_LastModified="{Date}2023-02-01T05:33:04.754Z"
+                headline="Ready for a new flavour?"
+                headline_x0040_LastModified="{Date}2023-02-01T08:01:13.559Z"
+                heroImage="/content/dam/frescopa/en/stock/AdobeStock_301817842.jpeg"
+                heroImage_x0040_LastModified="{Date}2023-02-01T05:10:25.244Z"
+                pretitle_x0040_LastModified="{Date}2023-02-01T05:33:04.740Z"
+                termsConditions_x0040_LastModified="{Date}2023-02-01T05:10:25.244Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xfcreated="true"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <app
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="App"
+                    name="app">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[headline:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,pretitle:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,detail:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,callToAction:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,ctaUrl:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,heroImage:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9,termsConditions:54f1cb0b-9caf-4113-abfc-d88c2a7e58f9]"/>
+                </app>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

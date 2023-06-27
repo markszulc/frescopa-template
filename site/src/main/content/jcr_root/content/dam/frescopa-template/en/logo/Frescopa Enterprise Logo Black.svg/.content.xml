@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="466350ff-ce93-4562-9f86-1bb4caf711ae">
+    <jcr:content
+        dam:assetState="processed"
+        dam:jobId="0e4cd7d7-d05c-47e0-bda9-b28c0b016f45"
+        dam:processingId="18dcf74b-852f-4ab5-8cef-642d682b4cce"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cqdam.text.txt,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cq5dam.preview.pdf,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.140.100.png,cqdam.photoshop.x-creative-json]"
+        dam:processingRequestedDate="{Date}2023-02-26T09:04:53.363Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2023-06-27T22:14:01.657+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
+        jcr:primaryType="dam:AssetContent">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for svg files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.photoshop.x-creative-json
+                jcr:primaryType="nt:unstructured"
+                message="Manifest only supported for Photoshop files"
+                reason="SourceFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2023-06-27T22:14:00.947+10:00"
+            dam:sha1="234e03272e20eddb477103582ef901d148035ef1"
+            dam:size="{Long}7215"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

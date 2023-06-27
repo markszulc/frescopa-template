@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2_1_="http://purl.org/dc/terms/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:ns2_1_="http://purl.org/dc/terms/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:photomechanic="http://ns.camerabits.com/photomechanic/1.0/" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="560662ad-f6c3-412c-95a9-f5452466ae4a">
+    jcr:uuid="865e3f4d-398f-4c16-a101-626485fa9cbe">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-16T21:09:37.263+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:46.390+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2022-06-16T21:09:34.622+10:00"
+            dam:extracted="{Date}2023-06-27T21:28:43.349+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -48,6 +48,9 @@
             MicrosoftPhoto:LastKeywordXMP="[summer, beautiful, hotel, nature, balcony, white, terrace, forest, woman, young, happy, bali, view, table, sky, girl, lifestyle, morning, luxury, travel, green, relax, coffee, landscape, outdoor, house, attractive, chair, indonesia, lady, jungle, beauty, sun, vacation, female, relaxation, people, person, tea, drink, tourist, resort, coffe, asian, women, harmony, trees, freedom, freelance, plant]"
             MicrosoftPhoto:LastKeywordXMP_xmpArrayType="rdf:Bag"
             ns2_1_:provenance="self#jumbf=/c2pa/adobe:urn:uuid:ec50c18d-f7ea-474e-8684-8596cf16f822/c2pa.claim"
+            photomechanic:ColorClass="{Long}1"
+            photomechanic:PMVersion="PM5"
+            photomechanic:Tagged="False"
             photoshop:Country="Russian Federation"
             photoshop:Credit="yurakrasil - stock.adobe.com"
             photoshop:DateCreated="{Date}2019-03-07T14:51:27.000+05:30"

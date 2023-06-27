@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ba452fac-ad97-4bc4-96f8-36b77ff9391d">
+    jcr:uuid="eb7ca19d-a852-490a-bf40-be89db3aee54">
     <jcr:content
         cq:name="AdobeStock_265609585.jpeg"
         cq:parentPath="/content/dam/frescopa-template/en/stock"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-28T21:01:22.238+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:48.371+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             crs:AlreadyApplied="True"
@@ -141,8 +141,8 @@
             crs:Whites2012="{Long}14"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20190425"
-            dam:DigitalCreationTime="{Long}64412"
-            dam:extracted="{Date}2022-06-28T21:01:21.210+10:00"
+            dam:DigitalCreationTime="064412"
+            dam:extracted="{Date}2023-06-27T21:28:45.372+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -235,11 +235,11 @@
             xmp:CreateDate="{Date}2019-04-25T06:44:12.140+10:00"
             xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
             xmp:MetadataDate="{Date}2019-05-02T16:19:56.000+07:00"
-            xmp:ModifyDate="{Date}2019-05-02T16:19:56.140+10:00"
-            xmp:Rating="{Decimal}0"
             xmpMM:DocumentID="adobe:docid:photoshop:d920d45a-6ca0-11e9-be54-cd840fb444ca"
             xmpMM:InstanceID="xmp.iid:7de5245e-1d2d-4e4c-aad4-dcd6b535941c"
-            xmpMM:OriginalDocumentID="137902601FFBF6F3B9FAF54C69F05EA4">
+            xmpMM:OriginalDocumentID="137902601FFBF6F3B9FAF54C69F05EA4"
+            xmp:ModifyDate="{Date}2019-05-02T16:19:56.140+10:00"
+            xmp:Rating="{Decimal}0">
             <exif:CFAPattern
                 exif:Columns="{Long}2"
                 exif:Rows="{Long}2"

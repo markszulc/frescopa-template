@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:acdsee="http://ns.acdsee.com/iptc/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:ns2="http://cipa.jp/exif/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:acdsee="http://ns.acdsee.com/iptc/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:exif="http://ns.adobe.com/exif/1.0/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="d0a0f2a1-9fc5-4229-9ec9-1563c246ed96">
+    jcr:uuid="5895ace2-6906-4ae3-8116-b8e330088a0b">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-06-16T18:23:11.232+10:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2023-06-27T21:28:51.988+10:00"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             acdsee:caption="Delivered parcel on door mat near entrance"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2022-06-16T18:23:04.217+10:00"
+            dam:extracted="{Date}2023-06-27T21:28:48.010+10:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -65,6 +65,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Delivered parcel on door mat near entrance"
+            ns2:InteroperabilityIndex="R98"
             ns2:LensSpecification="[24/1,70/1,0/0,0/0]"
             ns2:LensSpecification_xmpArrayType="rdf:Seq"
             ns2:PhotographicSensitivity="{Long}100"
@@ -83,25 +84,41 @@
             psAux:Lens="EF24-70mm f/2.8L II USM"
             psAux:LensID="{Long}495"
             psAux:LensInfo="24/1 70/1 0/0 0/0"
+            tiff:BitsPerSample="{Long}[8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}3840"
             tiff:ImageWidth="{Long}5760"
             tiff:Make="Canon"
             tiff:Model="Canon EOS 5D Mark III"
             tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
             tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
-            tiff:YCbCrPositioning="{Long}1"
+            tiff:YCbCrPositioning="{Long}2"
+            tiff:YCbCrSubSampling="{Long}[1,1]"
+            tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
             tiff:YResolution="300/1"
             xmp:CreateDate="{Date}2020-01-30T15:06:42.670+11:00"
             xmp:CreatorTool="Adobe Photoshop CC (Windows)"
             xmp:MetadataDate="{Date}2020-02-05T21:29:01.000+02:00"
-            xmp:ModifyDate="{Date}2020-02-05T21:29:01.670+11:00"
-            xmp:Rating="{Decimal}0"
             xmpMM:DocumentID="D3B8BA4744A10C0AB070E009C8263E40"
             xmpMM:InstanceID="xmp.iid:842a27cb-092c-5149-b8cd-84c87e6d4a25"
             xmpMM:OriginalDocumentID="D3B8BA4744A10C0AB070E009C8263E40"
+            xmp:ModifyDate="{Date}2020-02-05T21:29:01.670+11:00"
+            xmp:Rating="{Decimal}0"
             xmpRights:Owner="[Olga Yastremska\, New Africa\, Africa Studio]"
-            xmpRights:Owner_xmpArrayType="rdf:Bag"/>
+            xmpRights:Owner_xmpArrayType="rdf:Bag">
+            <exif:Flash
+                exif:Fired="{Boolean}false"
+                exif:Function="{Boolean}false"
+                exif:Mode="{Long}2"
+                exif:RedEyeMode="{Boolean}false"
+                exif:Return="{Long}0"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
             dam:score="{Long}1"
