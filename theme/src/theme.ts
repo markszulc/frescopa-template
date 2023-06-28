@@ -6,8 +6,11 @@ import "./resources/images/favicon.png"
 // Component Javascript
 import "./components/experiencefragment/change_flag.js";
 import "./components/contentfragment/contentfragment.js";
+import "./components/contentfragment/contentfragment_offerdigitalsignage.js";
+import "./components/contentfragment/contentfragment_offervoicechat.js";
 import "./components/form-options/form_dropdown.js";
 import "./components/progressbar/progressbar.js";
+import "./components/map/index.js";
 
 console.log("Calling ContextHub");
 var user = ContextHub.getStore("profile")

@@ -1,0 +1,111 @@
+.cmp-contentfragment {}
+
+.cfofferdigitalsignage {
+
+    width: 1080px;
+
+    article {
+        background-size: cover;
+        background-position: center;
+        font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+        height: 1920px;
+        width: 1080px;
+        overflow: hidden;
+    }
+
+
+    .cmp-contentfragment__title {
+        display: none;
+        
+    }
+
+    .cmp-contentfragment__description {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--heroImage {
+        display: none;
+    }
+
+    .cmp-contentfragment__element-title {
+        display: none;
+    }
+    .cmp-contentfragment__elements {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 100) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 10) 100%); 
+        //background-color: rgba(0, 0, 0, 0.3);
+        margin: 0px;
+        background-position: 35%;
+
+    }
+
+    .cmp-contentfragment__element-value {
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .cmp-contentfragment__element--pretitle {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--detail {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--termsConditions {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--headline {
+        background: #357086 0% 0% no-repeat padding-box;
+        opacity: 0.9;
+        max-width: 810px;
+        text-transform: initial;
+        order: 3;
+        margin-top: 600px;
+
+        .cmp-contentfragment__element-value {
+            text-align: left;
+            font: normal normal normal 100px/100px Baskerville;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            padding: 10px;
+            padding-left: 34px;
+
+            @media (max-width: 768px) {
+                padding-left: 34px;
+                padding-right: 34px;
+                max-width: 450px;
+            }
+        }
+    }
+
+    .cmp-contentfragment__element--ctaUrl {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--callToAction {
+        display: none;
+    }
+
+    .cmp-contentfragment__brand-strip {
+        width: 24px;
+        background-color: #dc6e52;
+        height: 1920px;
+        position: fixed;
+    }
+
+    .cmp-contentfragment__logo {
+        width: 358px;
+        position: absolute;
+        margin-left: 634px;
+        margin-top: 1755px;
+    }
+
+}

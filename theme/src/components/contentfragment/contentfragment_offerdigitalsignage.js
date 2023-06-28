@@ -11,19 +11,25 @@
      * @param {*} responsiveGridEl the responsive grid element to look under for instances of content fragments that have the contributor style applied
      */
     function applyComponentStyles(responsiveGridEl) {
-        responsiveGridEl.querySelectorAll(".cfoffer .cmp-contentfragment[data-cmp-contentfragment-model=\"frescopa/models/offer\"]:not([data-cmp-offer-processed='true'])").forEach(function (cf) {
+        responsiveGridEl.querySelectorAll(".cfofferdigitalsignage .cmp-contentfragment[data-cmp-contentfragment-model=\"frescopa/models/offer\"]:not([data-cmp-offer-processed='true'])").forEach(function (cf) {
             // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
             cf.setAttribute("data-cmp-offer-processed", true);
-            console.log("found one");
+            console.log("found background image");
 
             // Adjust the DOM, in this case injecting an img node and settings its source to the the content fragment's picture URL
             var cfEls = cf.querySelector('.cmp-contentfragment__elements');
             var assetPath = cfEls.querySelector(".cmp-contentfragment__element--heroImage .cmp-contentfragment__element-value").innerText.trim();
 
+            var brandStrip = document.createElement("div"); 
+            brandStrip.setAttribute("class", "cmp-contentfragment__brand-strip"); 
         
             if (assetPath && assetPath.indexOf("/content/dam/") === 0) {
                 cfEls.style.backgroundImage='url(' + assetPath + ')'; // specify the image path here
-          //      cfEls.insertBefore(pictureEl, cfEls.querySelector(".cmp-contentfragment__element--headline"));
+                cfEls.insertBefore(brandStrip, cfEls.querySelector(".cmp-contentfragment__element--headline"));
+                var pictureEl = document.createElement("img"); 
+                pictureEl.setAttribute("class", "cmp-contentfragment__logo"); 
+				pictureEl.setAttribute("src", "/content/dam/frescopa/en/logo/frescopa-logotype-on-black.svg");
+                cfEls.insertBefore(pictureEl, cfEls.querySelector(".cmp-contentfragment__brand-strip"));
             }
         });
     }

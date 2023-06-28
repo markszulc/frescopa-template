@@ -1,0 +1,67 @@
+.cmp-contentfragment {}
+
+.cfofferapp {
+    .cmp-contentfragment__element--headline {
+        height: 150px;
+        width: 150px;
+        overflow: hidden;
+        background-color: #F4E9DC;
+        color: #58181D;
+        padding: 10px;
+        font: normal normal normal 20px/22px Baskerville;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+
+        .cmp-contentfragment__element-value {
+         }
+    }
+
+    .cmp-contentfragment__title {
+        display: none;
+        
+    }
+
+    .cmp-contentfragment__description {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--heroImage {
+        display: none;
+    }
+
+    .cmp-contentfragment__element-title {
+        display: none;
+    }
+    .cmp-contentfragment__elements {
+        color: #467C90;
+    }
+
+    .cmp-contentfragment__element-value {
+        margin: 0;
+    }
+
+    .cmp-contentfragment__element--pretitle {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--detail {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--termsConditions {
+        display: none;
+    }
+
+
+    .cmp-contentfragment__element--ctaUrl {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--callToAction {
+         display: none;
+    }
+
+}
