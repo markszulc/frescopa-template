@@ -16,7 +16,18 @@
                                 jcr:title="Generic Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_default>
                             <policy_contact_us
                                 cq:styleDefaultClasses="contactus-page"
@@ -42,7 +53,18 @@
                                 jcr:title="Home page"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_home>
                         </page>
                     </v3>
@@ -60,7 +82,18 @@
                                 displayFormat="true"
                                 displaySize="true"
                                 titleType="h3">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_default>
                         </download>
                     </v2>
@@ -77,7 +110,18 @@
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 showTitleType="false"
                                 titleType="h3">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Layout"
@@ -131,7 +175,18 @@
                                 jcr:title="Page Root"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="[/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title]">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                         <mapping_1575024218483
@@ -157,17 +212,32 @@
                             </policy_root>
                             <policy_default
                                 jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                                jcr:lastModified="{Date}2022-06-19T20:13:14.536+10:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:lastModified="{Date}2023-05-04T00:49:32.078Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Content"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 allowedColorSwatches="[#A03532,]"
                                 backgroundColorEnabled="true"
-                                components="[/apps/core/cif/components/commerce/productlist/v2/productlist,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
+                                components="[/libs/fd/af/components/aemform,/apps/core/cif/components/commerce/productlist/v2/productlist,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/fd/components/aemform/v2/aemform,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search,/libs/dam/components/scene7/dimensionalmedia]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}true"
+                                    cq:lastReplicated="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_scene7="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    cq:lastReplicationAction_scene7="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                         <mapping_1575030255082
@@ -226,7 +296,18 @@
                                 components="[group:CIF Core Components,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                         <mapping_1656420542932
@@ -271,13 +352,26 @@
                             </policy_main>
                             <policy_xf_root
                                 jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                                jcr:lastModified="{Date}2022-08-10T06:53:10.459Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="XF Root"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
+                                components="[/apps/core/cif/components/content/teaser/v3/teaser,/apps/core/cif/components/commerce/productteaser/v1/productteaser,/libs/core/wcm/components/accordion/v1/accordion,/libs/core/wcm/components/button/v2/button,/libs/core/wcm/components/carousel/v1/carousel,/libs/core/wcm/components/container/v1/container,/libs/core/wcm/components/contentfragment/v1/contentfragment,/libs/core/wcm/components/contentfragmentlist/v2/contentfragmentlist,/libs/core/wcm/components/form/container/v2/container,/libs/core/wcm/components/download/v2/download,/libs/core/wcm/components/embed/v2/embed,/libs/core/wcm/components/experiencefragment/v2/experiencefragment,/libs/core/wcm/components/image/v3/image,/libs/core/wcm/components/list/v3/list,/libs/core/wcm/components/pdfviewer/v1/pdfviewer,/libs/core/wcm/components/progressbar/v1/progressbar,/libs/core/wcm/components/separator/v1/separator,/libs/core/wcm/components/sharing/v1/sharing,/libs/core/wcm/components/tabs/v1/tabs,/libs/core/wcm/components/teaser/v2/teaser,/libs/core/wcm/components/text/v2/text,/libs/core/wcm/components/title/v3/title,/libs/core/wcm/components/breadcrumb/v3/breadcrumb,/libs/core/wcm/components/languagenavigation/v2/languagenavigation,/libs/core/wcm/components/navigation/v2/navigation,/libs/core/wcm/components/search/v1/search]"
                                 layout="responsiveGrid"
                                 layoutDisabled="false">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-10-17T02:10:17.637Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-10-17T02:10:17.637Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:authoring jcr:primaryType="nt:unstructured">
                                     <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                         <mapping_1575024218483
@@ -313,7 +407,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Header"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_header>
                             <policy_footer
                                 cq:styleDefaultClasses="footer"
@@ -321,7 +426,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Page Footer"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_footer>
                         </experiencefragment>
                     </v2>
@@ -338,7 +454,18 @@
                                 allowedTypes="h1"
                                 linkDisabled="true"
                                 type="h1">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -364,7 +491,18 @@
                                 allowedTypes="[h2,h3,h4,h5,h6]"
                                 linkDisabled="false"
                                 type="h2">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -414,7 +552,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Text"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <rtePlugins jcr:primaryType="nt:unstructured">
                                     <paraformat
                                         jcr:primaryType="nt:unstructured"
@@ -506,6 +655,8 @@
                             <policy_default
                                 cq:styleDefaultClasses="standard"
                                 jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
+                                jcr:lastModified="{Date}2023-02-08T01:16:24.960Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Image"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -514,11 +665,28 @@
                                 altValueFromDAM="true"
                                 disableLazyLoading="false"
                                 displayPopupTitle="true"
+                                enableAssetDelivery="true"
+                                enableDmFeatures="false"
                                 isDecorative="false"
                                 jpegQuality="{Long}85"
                                 titleValueFromDAM="true"
                                 uuidDisabled="true">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}true"
+                                    cq:lastReplicated="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T01:19:41.358Z"
+                                    cq:lastReplicated_publish="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_scene7="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    cq:lastReplicationAction_scene7="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <plugins jcr:primaryType="nt:unstructured">
                                     <crop
                                         jcr:primaryType="nt:unstructured"
@@ -578,7 +746,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="My Site Language Navigation - Experience Fragment"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                navigationRoot="/content/frescopa-template"
+                                navigationRoot="/content/frescopa"
                                 structureDepth="1">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_xf>
@@ -595,7 +763,18 @@
                                     jcr:title="Content Form"
                                     sling:resourceType="wcm/core/components/policy/policy"
                                     components="[/libs/core/wcm/components/form/button/v2/button,/libs/core/wcm/components/form/hidden/v2/hidden,/libs/core/wcm/components/form/options/v2/options,/libs/core/wcm/components/form/text/v2/text]">
-                                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                                    <jcr:content
+                                        cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                        cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                        cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                        cq:lastReplicationAction="Activate"
+                                        cq:lastReplicationAction_preview="Activate"
+                                        cq:lastReplicationAction_publish="Activate"
+                                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                                        jcr:primaryType="nt:unstructured"/>
                                 </policy_default>
                             </container>
                         </v2>
@@ -609,7 +788,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Separator"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -644,7 +834,18 @@
                                 hideCurrent="false"
                                 showHidden="false"
                                 startLevel="2">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -670,7 +871,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Button"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -716,7 +928,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Tabs"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleGroupLabel="Styles"
@@ -743,12 +966,27 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <contentfragment jcr:primaryType="nt:unstructured">
                             <policy_1655638336106
-                                jcr:lastModified="{Date}2022-06-28T22:32:58.338+10:00"
-                                jcr:lastModifiedBy="admin"
+                                jcr:lastModified="{Date}2023-02-26T11:01:19.171Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Fragments"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:isDelivered="{Boolean}true"
+                                    cq:lastReplicated="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_preview="{Date}2023-02-08T00:04:28.712Z"
+                                    cq:lastReplicated_publish="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicated_scene7="{Date}2023-05-07T13:10:17.933Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    cq:lastReplicationAction_scene7="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0 jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
@@ -756,6 +994,26 @@
                                                 cq:styleClasses="cfoffer"
                                                 cq:styleId="1655638347736"
                                                 cq:styleLabel="Offer Banner"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="cfofferdigitalsignage"
+                                                cq:styleId="1677400744096"
+                                                cq:styleLabel="Offer Digital Signage"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="cfofferapp"
+                                                cq:styleId="1677400764784"
+                                                cq:styleLabel="Offer App"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="cfoffervoicechat"
+                                                cq:styleId="1677400796085"
+                                                cq:styleLabel="Offer Voice/Chat"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item4
+                                                cq:styleClasses="cfofferemail"
+                                                cq:styleId="1677409268595"
+                                                cq:styleLabel="Offer Email"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
@@ -773,7 +1031,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Fragment List"
                                 sling:resourceType="wcm/core/components/policy/policy">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                    cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                    cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                    cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                    cq:lastReplicationAction="Activate"
+                                    cq:lastReplicationAction_preview="Activate"
+                                    cq:lastReplicationAction_publish="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0 jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
@@ -810,7 +1079,18 @@
                                     sling:resourceType="wcm/core/components/policy/policy"
                                     loadClientPrice="false"
                                     paginationType="loadmorebutton">
-                                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                                    <jcr:content
+                                        cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                                        cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                                        cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                                        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                                        cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                                        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                                        cq:lastReplicationAction="Activate"
+                                        cq:lastReplicationAction_preview="Activate"
+                                        cq:lastReplicationAction_publish="Activate"
+                                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                                        jcr:primaryType="nt:unstructured"/>
                                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                                         <item0
                                             cq:styleGroupMultiple="true"
@@ -846,7 +1126,18 @@
                         jcr:title="XF page"
                         sling:resourceType="wcm/core/components/policy/policy"
                         clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v3,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2022-07-07T01:22:18.029Z"
+                            cq:lastReplicated_preview="{Date}2022-07-07T01:23:01.351Z"
+                            cq:lastReplicated_publish="{Date}2022-07-07T01:22:18.029Z"
+                            cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+                            cq:lastReplicatedBy_preview="MSZULC@ADOBE.COM"
+                            cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_preview="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_default>
                 </xfpage>
             </components>
