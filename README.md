@@ -1,6 +1,7 @@
 # Frescopa Experience Template
 
-This is the standard site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
+This is a site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
+While this is still a supportred way to build a site, it is recommended to review Edge Delivery Services as a recommeded alternative. 
 
 <img src="previews/frescopa-template.png?raw=true" alt="Standard site preview" width="50%">
 
